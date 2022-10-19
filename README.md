@@ -1,9 +1,8 @@
 # KS-Cucumber-Web-Automation
 Katalon Studio Automation test using BDD Cucumber
 
-Here I don't use an emulator but use a real device to do testing
 
-## Why using Katalon Studio for Automation Testing
+## Why using BDD Cucumber
 Katalon’s main advantage is its ease of deployment and a wider set of integrations compared to Selenium, the market leader. Katalon has dual scripting interfaces for users with different programming skills. This means that testers with limited technical knowledge can use a simpler user interface that doesn’t require writing code.
 
 ### How to Using this project
