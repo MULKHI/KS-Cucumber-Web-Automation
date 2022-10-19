@@ -1,5 +1,5 @@
 # KS-Cucumber-Web-Automation
-Katalon Studio Automation test Mobile App Calculator
+Katalon Studio Automation test using BDD Cucumber
 
 Here I don't use an emulator but use a real device to do testing
 
