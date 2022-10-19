@@ -1,8 +1,9 @@
 # KS-Cucumber-Web-Automation
 Katalon Studio Automation test using BDD Cucumber
 
-Feature File in the folder /Include/features
-Step Definitions in the folder 
+- [x] Feature File in the folder /Include/features
+
+- [x] Step Definitions in the folder /Include/scripts/groovy
 
 
 ## Why using BDD Cucumber
