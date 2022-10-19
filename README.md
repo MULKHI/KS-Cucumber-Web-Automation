@@ -12,7 +12,7 @@ Katalon’s main advantage is its ease of deployment and a wider set of integrat
 ### 📄Test Reports
 Test Report will appear in the 'Reports' folder in the form of HTML
 
-![Screenshot (360)](https://user-images.githubusercontent.com/80143004/194088690-a52d6cee-ec13-4086-b3b4-16d273b7deb1.png)
+![Screenshot (370)](https://user-images.githubusercontent.com/80143004/196775164-3e5a9241-5945-4b6c-ac85-9adc4042a17f.png)
 
 If you are still confused and have problems, you can contact me via the link below 👇
 
