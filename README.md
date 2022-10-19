@@ -7,7 +7,7 @@ Katalon Studio Automation test using BDD Cucumber
 
 
 ## Why using BDD Cucumber
-Katalon’s main advantage is its ease of deployment and a wider set of integrations compared to Selenium, the market leader. Katalon has dual scripting interfaces for users with different programming skills. This means that testers with limited technical knowledge can use a simpler user interface that doesn’t require writing code.
+Cucumber use Feature Files to write User Stories, because Cucumber uses a language that is easy to understand by anyone (Gherkin), each team can add or edit User Stories
 
 ### 📄Test Reports
 Test Report will appear in the 'Reports' folder in the form of HTML
