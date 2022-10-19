@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="124.78113">
+<testcase classname="Add Product Feature" name="Test Add Product in Cart" time="49.36867">
+<system-out><![CDATA[Given Users navigates to home page..........................................passed
+And Click on 'products' button..............................................passed
+When Users click 'Add to cart' in product 'Blue Top'........................passed
+And Click 'Continue Shopping' button........................................passed
+And Click on 'Cart' button..................................................passed
+Then Users will get the result products are added to Cart...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add Product Feature" name="Test Verify Product Quantity in Cart" time="39.548939">
+<system-out><![CDATA[Given Users navigates to home page..........................................passed
+And Click on 'products' button..............................................passed
+When Users Click 'View Product' for any product.............................passed
+And Users add Increase quantity to 6........................................passed
+And Click 'Add to cart' button..............................................passed
+And Click 'Continue Shopping' button........................................passed
+And Click on 'Cart' button..................................................passed
+Then Product is displayed in cart page with exact quantity 6................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add Product Feature" name="Test Remove Product From Cart" time="35.863521">
+<system-out><![CDATA[Given Users navigates to home page..........................................passed
+And Click on 'products' button..............................................passed
+When Users click 'Add to cart' in product 'Blue Top'........................passed
+And Click 'Continue Shopping' button........................................passed
+And Click on 'Cart' button..................................................passed
+And Click 'X' button corresponding to particular product....................passed
+Then Product is removed from the cart.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

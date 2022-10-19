@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "0617c74d-d570-42ac-b328-3242257c9e2d",
+        "line": 6,
+        "name": "Users open product page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11702808600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Users navigates to home page",
+            "match": {
+              "location": "LoginSteps.Users_navigates_to_home_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "e2603cde-e1cb-4bf1-a822-1012d175241a"
+          },
+          {
+            "result": {
+              "duration": 11145929600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on \u0027products\u0027 button",
+            "match": {
+              "location": "SearchProductSteps.Click_on_products_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "d2189207-837e-482d-9dcd-9671098536da"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "0617c74d-d570-42ac-b328-3242257c9e2d",
+        "line": 18,
+        "name": "Test searching product existing",
+        "description": "",
+        "id": "search-product-feature;test-searching-product-existing;existing-product;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11391817700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Users enters Winter Top into the search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Winter Top",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchProductSteps.enters_ProductName_into_the_search_bar(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "a383884e-a312-4c00-8e0e-b3013585bc80"
+          },
+          {
+            "result": {
+              "duration": 8424404000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on \u0027search\u0027 button",
+            "match": {
+              "location": "SearchProductSteps.Click_on_search_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "5f5e52dc-bf37-49a4-8f22-59e92cffedf4"
+          },
+          {
+            "result": {
+              "duration": 6030284800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Users will get Winter Top result are shown on the results page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Winter Top",
+                  "offset": 15
+                }
+              ],
+              "location": "SearchProductSteps.result_are_shown_on_the_results_page(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "d981feab-c397-4144-95f0-d2b4c460f32a"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Valid"
+          }
+        ]
+      }
+    ],
+    "name": "Search Product Feature",
+    "description": "  As an Users\n  Users want to searching product in the application\n  and get the desired result of product existing",
+    "id": "search-product-feature",
+    "keyword": "Feature",
+    "uri": "D:/My Project Katalon/BDD Cucumber Project/Include/features/Search Product.feature",
+    "tags": []
+  }
+]

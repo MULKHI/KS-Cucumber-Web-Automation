@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="270.337374">
+<testcase classname="Register Feature" name="Test Register Users completing all the fields" time="119.406812">
+<system-out><![CDATA[Given Users navigates to home page..........................................passed
+And Click on 'Signup / Login' button........................................passed
+When Enters an name test1 and email address telopd@gmail.com................passed
+And Click on 'signup' button................................................passed
+And Choose Title Mr.........................................................passed
+And Input test1 in field Name...............................................passed
+And Check Email field cannot click..........................................passed
+And Input JLfwvezS/NRqKh2zfFaESQ== in field Password........................passed
+And Choose random Date of birth.............................................passed
+And Select checkbox : Sign up for our newsletter............................passed
+And Select checkbox : Receive special offers from our partners..............passed
+And Input test1 in field First Name.........................................passed
+And Input everload in field Last Name.......................................passed
+And Input Name Company in field Company.....................................passed
+And Input sadadd in field Address...........................................passed
+And Input sasdada in field Address 2........................................passed
+And Choose Country Canada...................................................passed
+And Input sdadadad in field State...........................................passed
+And Input Paris in field City...............................................passed
+And Input 04432 in field Zipcode............................................passed
+And Input 0868746777 in field Mobile Number.................................passed
+And Click 'Create Account' button...........................................passed
+And Users is navigated to page ACCOUNT CREATED and click 'Continue' button..passed
+Then Users is navigated to home page with account...........................passed
+And Click on 'Logout' button then users back to login page..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register Feature" name="Test Register only input in mandatory fields" time="68.501276">
+<system-out><![CDATA[Given Users navigates to home page..........................................passed
+And Click on 'Signup / Login' button........................................passed
+When Enters an name test2 and email address tejouyuis@gmail.com.............passed
+And Click on 'signup' button................................................passed
+And Input test2 in field Name...............................................passed
+And Check Email field cannot click..........................................passed
+And Input o4HjxlJLVB5Fa64+Hon+OOTdR5Uf8246 in field Password................passed
+And Input testkedua in field First Name.....................................passed
+And Input deep in field Last Name...........................................passed
+And Input sadadd in field Address...........................................passed
+And Choose Country Canada...................................................passed
+And Input sdadadad in field State...........................................passed
+And Input Paris in field City...............................................passed
+And Input 04432 in field Zipcode............................................passed
+And Input 0868746777 in field Mobile Number.................................passed
+And Click 'Create Account' button...........................................passed
+And Users is navigated to page ACCOUNT CREATED and click 'Continue' button..passed
+Then Users is navigated to home page with account...........................passed
+And Click on 'Logout' button then users back to login page..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register Feature" name="Test Register an existing Name/Email" time="33.208884">
+<system-out><![CDATA[Given Users navigates to home page..........................................passed
+And Click on 'Signup / Login' button........................................passed
+When Enters an name Peater and email address NotEmail@gmail.com.............passed
+And Click on 'signup' button................................................passed
+Then Users cannot register using existing email address.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register Feature" name="Test Register without completing mandatory fields" time="49.220402">
+<system-out><![CDATA[Given Users navigates to home page..........................................passed
+And Click on 'Signup / Login' button........................................passed
+When Enters an name test4 and email address teslkjhjdr@gmail.com............passed
+And Click on 'signup' button................................................passed
+And Choose Title Mr.........................................................passed
+And Check Email field cannot click..........................................passed
+And Choose random Date of birth.............................................passed
+And Select checkbox : Sign up for our newsletter............................passed
+And Select checkbox : Receive special offers from our partners..............passed
+And Input Name Company in field Company.....................................passed
+And Input sasdada in field Address 2........................................passed
+And Click 'Create Account' button...........................................passed
+Then Users cannot register and will navigated to fields Name................passed
+]]></system-out>
+</testcase>
+</testsuite>

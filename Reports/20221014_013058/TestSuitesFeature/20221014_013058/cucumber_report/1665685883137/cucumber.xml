@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="198.822999">
+<testcase classname="Login Feature" name="Test login with valid credentials" time="132.409296">
+<system-out><![CDATA[Given Users navigates to home page..........................................passed
+And Click on 'Signup / Login' button........................................passed
+When Enters an valid email testing123@gmail.com and valid password fzqqY0qJjYTuJiVJRZh4ag==.passed
+And Click on 'login' button.................................................passed
+Then Users is navigated to home page with account...........................passed
+And Click on 'Logout' button then users back to login page..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="Test login with invalid email and valid password" time="34.713481">
+<system-out><![CDATA[Given Users navigates to home page..........................................passed
+And Click on 'Signup / Login' button........................................passed
+When Enters an invalid email invalid@gmail.com and valid password fzqqY0qJjYTuJiVJRZh4ag==.passed
+And Click on 'login' button.................................................passed
+Then Users should NOT be able to login successfully.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="Test login with valid email and invalid password" time="31.700222">
+<system-out><![CDATA[Given Users navigates to home page..........................................passed
+And Click on 'Signup / Login' button........................................passed
+When Enters an valid email testing123@gmail.com and invalid password JLfwvezS/NRqKh2zfFaESQ==.passed
+And Click on 'login' button.................................................passed
+Then Users should NOT be able to login successfully.........................passed
+]]></system-out>
+</testcase>
+</testsuite>

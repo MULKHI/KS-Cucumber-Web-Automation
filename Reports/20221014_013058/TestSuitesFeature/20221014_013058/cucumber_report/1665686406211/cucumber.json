@@ -1,0 +1,349 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Users open product page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15769509100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Users navigates to home page",
+            "match": {
+              "location": "LoginSteps.Users_navigates_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11337300800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on \u0027products\u0027 button",
+            "match": {
+              "location": "SearchProductSteps.Click_on_products_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Test Add Product in Cart",
+        "description": "",
+        "id": "add-product-feature;test-add-product-in-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1910389000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Users click \u0027Add to cart\u0027 in product \u0027Blue Top\u0027",
+            "match": {
+              "location": "AddProductSteps.click_Add_to_cart_in_product_Blue_Top()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7976221800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click \u0027Continue Shopping\u0027 button",
+            "match": {
+              "location": "AddProductSteps.Click_Continue_Shopping_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6398991800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on \u0027Cart\u0027 button",
+            "match": {
+              "location": "AddProductSteps.Click_on_Cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5960605400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Users will get the result products are added to Cart",
+            "match": {
+              "location": "AddProductSteps.products_are_added_to_Cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Valid"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Users open product page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10369639900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Users navigates to home page",
+            "match": {
+              "location": "LoginSteps.Users_navigates_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7473607500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on \u0027products\u0027 button",
+            "match": {
+              "location": "SearchProductSteps.Click_on_products_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Test Verify Product Quantity in Cart",
+        "description": "",
+        "id": "add-product-feature;test-verify-product-quantity-in-cart;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6671235800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Users Click \u0027View Product\u0027 for any product",
+            "match": {
+              "location": "AddProductSteps.Click_View_Product_for_any_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2441205900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Users add Increase quantity to 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 31
+                }
+              ],
+              "location": "AddProductSteps.Users_add_Increase_quantity_to_amount(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 457661900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click \u0027Add to cart\u0027 button",
+            "match": {
+              "location": "AddProductSteps.Click_Add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3578131800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click \u0027Continue Shopping\u0027 button",
+            "match": {
+              "location": "AddProductSteps.Click_Continue_Shopping_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4880282000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click on \u0027Cart\u0027 button",
+            "match": {
+              "location": "AddProductSteps.Click_on_Cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3660475200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Product is displayed in cart page with exact quantity 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 54
+                }
+              ],
+              "location": "AddProductSteps.Product_is_displayed_with_exact_quantity(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Valid"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Users open product page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12582101800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Users navigates to home page",
+            "match": {
+              "location": "LoginSteps.Users_navigates_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9400862500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on \u0027products\u0027 button",
+            "match": {
+              "location": "SearchProductSteps.Click_on_products_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Test Remove Product From Cart",
+        "description": "",
+        "id": "add-product-feature;test-remove-product-from-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2305226800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Users click \u0027Add to cart\u0027 in product \u0027Blue Top\u0027",
+            "match": {
+              "location": "AddProductSteps.click_Add_to_cart_in_product_Blue_Top()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2397559500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click \u0027Continue Shopping\u0027 button",
+            "match": {
+              "location": "AddProductSteps.Click_Continue_Shopping_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5122821300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click on \u0027Cart\u0027 button",
+            "match": {
+              "location": "AddProductSteps.Click_on_Cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 577527400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click \u0027X\u0027 button corresponding to particular product",
+            "match": {
+              "location": "AddProductSteps.Click_button_delete_product_in_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3465334400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Product is removed from the cart",
+            "match": {
+              "location": "AddProductSteps.Product_is_removed_from_the_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Valid"
+          }
+        ]
+      }
+    ],
+    "name": "Add Product Feature",
+    "description": "  As an Users\n  Users want to add product in the application\n  and get the add result of product existing in cart page",
+    "id": "add-product-feature",
+    "keyword": "Feature",
+    "uri": "D:/My Project Katalon/BDD Cucumber Project/Include/features/Add Product in Cart.feature",
+    "tags": []
+  }
+]

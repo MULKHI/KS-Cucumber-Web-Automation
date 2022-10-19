@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuitesFeature,Chrome 106.0.0.0,,,2022-10-14 01:31:21,2022-10-14 01:42:12,10m - 51.117s,PASSED
+,,,,,,,
+Test Cases/RunFeatureTest,Chrome 106.0.0.0,,,2022-10-14 01:31:22,2022-10-14 01:42:12,10m - 49.939s,PASSED
+"runFeatureFile(""Include/features/Login.feature"")",Chrome 106.0.0.0,,,2022-10-14 01:31:22,2022-10-14 01:34:45,3m - 22.483s,PASSED
+"runFeatureFile(""Include/features/Register.feature"")",Chrome 106.0.0.0,,,2022-10-14 01:34:45,2022-10-14 01:39:16,4m - 30.979s,PASSED
+"runFeatureFile(""Include/features/Search Product.feature"")",Chrome 106.0.0.0,,,2022-10-14 01:39:16,2022-10-14 01:40:06,49.773s,PASSED
+"runFeatureFile(""Include/features/Add Product in Cart.feature"")",Chrome 106.0.0.0,,,2022-10-14 01:40:06,2022-10-14 01:42:12,2m - 6.011s,PASSED

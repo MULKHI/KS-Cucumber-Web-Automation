@@ -1,0 +1,1095 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "35877664-6549-485d-b352-f109fc90aeee",
+        "line": 6,
+        "name": "Users open login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 36343545500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Users navigates to home page",
+            "match": {
+              "location": "LoginSteps.Users_navigates_to_home_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "7559a478-eca2-4461-bae6-5ce432ec4311"
+          },
+          {
+            "result": {
+              "duration": 7673201300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on \u0027Signup / Login\u0027 button",
+            "match": {
+              "location": "LoginSteps.Click_on_Signup_Login_Buutton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "988a6edd-f5f1-4907-a9ff-4acbce020b98"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "35877664-6549-485d-b352-f109fc90aeee",
+        "line": 38,
+        "name": "Test Register Users completing all the fields",
+        "description": "",
+        "id": "register-feature;test-register-users-completing-all-the-fields;account-information-and-address-information;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5132098200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enters an name test1 and email address telopd@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1",
+                  "offset": 15
+                },
+                {
+                  "val": "telopd@gmail.com",
+                  "offset": 39
+                }
+              ],
+              "location": "RegisterSteps.Users_enters_name_email(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "9478748b-1875-4aae-8a20-b7762de62902"
+          },
+          {
+            "result": {
+              "duration": 4794220200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on \u0027signup\u0027 button",
+            "match": {
+              "location": "RegisterSteps.Click_on_signup_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "19c56f55-6312-4c4f-a1c9-56464b9bb839"
+          },
+          {
+            "result": {
+              "duration": 1356407200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Choose Title Mr.",
+            "match": {
+              "location": "RegisterSteps.Choose_Title_Mr()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "0e2a579d-3e79-48b2-afab-428ef5195150"
+          },
+          {
+            "result": {
+              "duration": 1137321901,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Input test1 in field Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_Name_in_field_Name(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "3d346fee-d599-402f-93a7-189bc1cbcb67"
+          },
+          {
+            "result": {
+              "duration": 897707700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Check Email field cannot click",
+            "match": {
+              "location": "RegisterSteps.Check_Email_field_cannot_click()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "c703f4e5-2a22-4874-a4a3-122dba7aab54"
+          },
+          {
+            "result": {
+              "duration": 1234347400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Input JLfwvezS/NRqKh2zfFaESQ\u003d\u003d in field Password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JLfwvezS/NRqKh2zfFaESQ\u003d\u003d",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_Password_in_field_Password(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "0e15b1a3-87ac-442c-92df-a6c40c3dc348"
+          },
+          {
+            "result": {
+              "duration": 9591585200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Choose random Date of birth",
+            "match": {
+              "location": "RegisterSteps.Choose_random_Date_of_birth()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "b2c05cb3-e2d9-4786-84d5-ed8013fc6a61"
+          },
+          {
+            "result": {
+              "duration": 948887500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Select checkbox : Sign up for our newsletter",
+            "match": {
+              "location": "RegisterSteps.Checkbox_Signup_for_our_newsletter()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "d3d4b23d-2748-4e86-9e57-4685e170d59f"
+          },
+          {
+            "result": {
+              "duration": 919863900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Select checkbox : Receive special offers from our partners",
+            "match": {
+              "location": "RegisterSteps.Checkbox_Receive_special_offers_from_our_partners()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "9ef1d359-d89f-4c0e-8f8e-545aeb3a90c9"
+          },
+          {
+            "result": {
+              "duration": 1605330200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Input test1 in field First Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_FirstName_in_field_First_Name(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "994f3987-56ad-46b5-ab48-796b433dd60f"
+          },
+          {
+            "result": {
+              "duration": 1327178800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Input everload in field Last Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "everload",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_LastName_in_field_Last_Name(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "f49dccac-0fa7-4c58-b906-3069f369a5ec"
+          },
+          {
+            "result": {
+              "duration": 1666610300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Input Name Company in field Company",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name Company",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_Company_in_field_Company(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "0081d902-d537-4443-90bc-740a8a589bc1"
+          },
+          {
+            "result": {
+              "duration": 1590897300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Input sadadd in field Address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sadadd",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_Address_in_field_Address(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "88c9ada4-253e-4054-bf3f-6b0310a3bbde"
+          },
+          {
+            "result": {
+              "duration": 1704509900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Input sasdada in field Address 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sasdada",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_Address2_in_field_Address(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "4de139f7-75c0-4de9-a446-0646e858326f"
+          },
+          {
+            "result": {
+              "duration": 1791059200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Choose Country Canada",
+            "match": {
+              "location": "RegisterSteps.Choose_Country_Canada()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "78226c05-4c88-4711-9038-712cbbf3b9e6"
+          },
+          {
+            "result": {
+              "duration": 1852337400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Input sdadadad in field State",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sdadadad",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_State_in_field_State(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "bac18ade-c84a-45e1-b500-95e513d640a1"
+          },
+          {
+            "result": {
+              "duration": 1846199400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Input Paris in field City",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Paris",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_City_in_field_City(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "025f14f6-6a38-40af-9432-2eb42e42df35"
+          },
+          {
+            "result": {
+              "duration": 1212055400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Input 04432 in field Zipcode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "04432",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_Zipcode_in_field_Zipcode(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "d6982f6d-6ea0-46ed-a9e1-fa3e53bebdeb"
+          },
+          {
+            "result": {
+              "duration": 1204797500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Input 0868746777 in field Mobile Number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0868746777",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_MobileNumber_in_field_Mobile_Number(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "7b022e78-47f4-4a2e-905c-c16f9ad93a9d"
+          },
+          {
+            "result": {
+              "duration": 4628873400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Click \u0027Create Account\u0027 button",
+            "match": {
+              "location": "RegisterSteps.Click_Create_Account_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "7f878261-3d54-40a8-9596-30a8fe7782f9"
+          },
+          {
+            "result": {
+              "duration": 15319357600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Users is navigated to page ACCOUNT CREATED and click \u0027Continue\u0027 button",
+            "match": {
+              "location": "RegisterSteps.Users_is_navigated_to_page_ACCOUNT_CREATED()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "6d1a9c64-4302-4880-9a5c-ceccb4776af8"
+          },
+          {
+            "result": {
+              "duration": 2817776600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Users is navigated to home page with account",
+            "match": {
+              "location": "LoginSteps.Users_is_navigated_to_homepage_with_account()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "beeaee4f-d8c7-4b94-b577-e48ae8b6a448"
+          },
+          {
+            "result": {
+              "duration": 10739853000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click on \u0027Logout\u0027 button then users back to login page",
+            "match": {
+              "location": "LoginSteps.Click_on_Logout_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "089c976c-214b-483d-9da0-2a0f7eba8e16"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Valid"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "b0ae5573-38fd-4321-b8e2-3b742e83638f",
+        "line": 6,
+        "name": "Users open login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17918768600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Users navigates to home page",
+            "match": {
+              "location": "LoginSteps.Users_navigates_to_home_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "98d13bb6-5c32-478b-8b3c-d42bdc341912"
+          },
+          {
+            "result": {
+              "duration": 5132264500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on \u0027Signup / Login\u0027 button",
+            "match": {
+              "location": "LoginSteps.Click_on_Signup_Login_Buutton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e3e91a60-6b60-4088-9d55-a2fae7452772"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "b0ae5573-38fd-4321-b8e2-3b742e83638f",
+        "line": 62,
+        "name": "Test Register only input in mandatory fields",
+        "description": "",
+        "id": "register-feature;test-register-only-input-in-mandatory-fields;account-information-and-address-information;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2334073900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Enters an name test2 and email address tejouyuis@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test2",
+                  "offset": 15
+                },
+                {
+                  "val": "tejouyuis@gmail.com",
+                  "offset": 39
+                }
+              ],
+              "location": "RegisterSteps.Users_enters_name_email(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "7deea837-f13e-4eee-8b2a-ed8b7e55b7e9"
+          },
+          {
+            "result": {
+              "duration": 4567185900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Click on \u0027signup\u0027 button",
+            "match": {
+              "location": "RegisterSteps.Click_on_signup_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "4192d13d-c134-4d8b-b226-9e4ff5c17d4b"
+          },
+          {
+            "result": {
+              "duration": 1316969700,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Input test2 in field Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test2",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_Name_in_field_Name(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "45e02c46-0971-4a68-b47a-ac64720ecbbe"
+          },
+          {
+            "result": {
+              "duration": 725968700,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Check Email field cannot click",
+            "match": {
+              "location": "RegisterSteps.Check_Email_field_cannot_click()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "c74e41aa-0e4a-46b8-bb1c-3bab226dbf6b"
+          },
+          {
+            "result": {
+              "duration": 815319100,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Input o4HjxlJLVB5Fa64+Hon+OOTdR5Uf8246 in field Password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "o4HjxlJLVB5Fa64+Hon+OOTdR5Uf8246",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_Password_in_field_Password(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ce06416c-fb98-47d3-9b7c-8355c33d6409"
+          },
+          {
+            "result": {
+              "duration": 1442834000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Input testkedua in field First Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testkedua",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_FirstName_in_field_First_Name(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "f1ed289b-dbaf-484a-9dcc-c6665d98bba7"
+          },
+          {
+            "result": {
+              "duration": 2213275700,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Input deep in field Last Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "deep",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_LastName_in_field_Last_Name(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "3cfc1497-b1d7-4bb6-82cf-d4f7221ef4e1"
+          },
+          {
+            "result": {
+              "duration": 1111864700,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Input sadadd in field Address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sadadd",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_Address_in_field_Address(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "cabfdaf9-b8ce-4d50-add6-1128893ad11f"
+          },
+          {
+            "result": {
+              "duration": 1602819300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Choose Country Canada",
+            "match": {
+              "location": "RegisterSteps.Choose_Country_Canada()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "5c42cbb4-f7cf-40ed-846c-80beeb5bd3e3"
+          },
+          {
+            "result": {
+              "duration": 1917631400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Input sdadadad in field State",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sdadadad",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_State_in_field_State(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "fab92f1a-9f37-45b9-85a0-ff19350417e0"
+          },
+          {
+            "result": {
+              "duration": 1174558900,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Input Paris in field City",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Paris",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_City_in_field_City(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "2e16314a-49ab-4bf4-9d84-8db88e7bd344"
+          },
+          {
+            "result": {
+              "duration": 1172947000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Input 04432 in field Zipcode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "04432",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_Zipcode_in_field_Zipcode(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "3e9bbb3f-d220-4983-9967-99ec71d0b246"
+          },
+          {
+            "result": {
+              "duration": 1171498800,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Input 0868746777 in field Mobile Number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0868746777",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_MobileNumber_in_field_Mobile_Number(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "b8b942fb-f15a-4272-a4a5-8fd4b4ac3601"
+          },
+          {
+            "result": {
+              "duration": 4458489600,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Click \u0027Create Account\u0027 button",
+            "match": {
+              "location": "RegisterSteps.Click_Create_Account_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "24983687-c589-4834-8108-0f8f92e9040c"
+          },
+          {
+            "result": {
+              "duration": 8064542600,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Users is navigated to page ACCOUNT CREATED and click \u0027Continue\u0027 button",
+            "match": {
+              "location": "RegisterSteps.Users_is_navigated_to_page_ACCOUNT_CREATED()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "d6c34339-bb44-4353-8296-e31fe9954f3c"
+          },
+          {
+            "result": {
+              "duration": 2789299800,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Users is navigated to home page with account",
+            "match": {
+              "location": "LoginSteps.Users_is_navigated_to_homepage_with_account()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "9e857a9d-1cdb-447b-ac42-6a3e772bdd56"
+          },
+          {
+            "result": {
+              "duration": 8531696400,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "Click on \u0027Logout\u0027 button then users back to login page",
+            "match": {
+              "location": "LoginSteps.Click_on_Logout_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "2db0a9c7-1c53-4112-94e5-2d9b2d3a8ecc"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Valid"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "a45b77f0-6329-4a2b-812e-92eeca90bc76",
+        "line": 6,
+        "name": "Users open login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18399189200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Users navigates to home page",
+            "match": {
+              "location": "LoginSteps.Users_navigates_to_home_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "de9b9e01-b26c-47cf-b792-ff9e176d4f07"
+          },
+          {
+            "result": {
+              "duration": 5199372700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on \u0027Signup / Login\u0027 button",
+            "match": {
+              "location": "LoginSteps.Click_on_Signup_Login_Buutton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "b1ae3557-a29b-4173-a75a-e19d83959fcb"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "a45b77f0-6329-4a2b-812e-92eeca90bc76",
+        "line": 72,
+        "name": "Test Register an existing Name/Email",
+        "description": "",
+        "id": "register-feature;test-register-an-existing-name/email;account-information-and-address-information;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2248076200,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "Enters an name Peater and email address NotEmail@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Peater",
+                  "offset": 15
+                },
+                {
+                  "val": "NotEmail@gmail.com",
+                  "offset": 40
+                }
+              ],
+              "location": "RegisterSteps.Users_enters_name_email(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "40f99963-41dd-458a-8b09-deb8c7e959a3"
+          },
+          {
+            "result": {
+              "duration": 4813289500,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Click on \u0027signup\u0027 button",
+            "match": {
+              "location": "RegisterSteps.Click_on_signup_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "b4f30832-7394-49e0-b6b0-5e35620b5ff4"
+          },
+          {
+            "result": {
+              "duration": 2539407800,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "Users cannot register using existing email address",
+            "match": {
+              "location": "RegisterSteps.Users_cannot_register_using_existing_email_address()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "24106efd-e25a-47c6-aa3b-e0d275160c6f"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Invalid"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "4cf79ed6-bf15-41ff-881f-dc8fab1caa46",
+        "line": 6,
+        "name": "Users open login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13720206000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Users navigates to home page",
+            "match": {
+              "location": "LoginSteps.Users_navigates_to_home_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "cc2a5943-214b-40c7-b784-0f8241e214cd"
+          },
+          {
+            "result": {
+              "duration": 4755043800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on \u0027Signup / Login\u0027 button",
+            "match": {
+              "location": "LoginSteps.Click_on_Signup_Login_Buutton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "a31b3ff2-56fe-41b6-87c1-b1b7117d9526"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "4cf79ed6-bf15-41ff-881f-dc8fab1caa46",
+        "line": 90,
+        "name": "Test Register without completing mandatory fields",
+        "description": "",
+        "id": "register-feature;test-register-without-completing-mandatory-fields;account-information-and-address-information;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2329009900,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Enters an name test4 and email address teslkjhjdr@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test4",
+                  "offset": 15
+                },
+                {
+                  "val": "teslkjhjdr@gmail.com",
+                  "offset": 39
+                }
+              ],
+              "location": "RegisterSteps.Users_enters_name_email(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "7c4f3c12-b866-485c-9e32-1f0597774bb4"
+          },
+          {
+            "result": {
+              "duration": 5548727700,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Click on \u0027signup\u0027 button",
+            "match": {
+              "location": "RegisterSteps.Click_on_signup_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "29d1d0b9-874d-44af-bcc8-8ca80925494c"
+          },
+          {
+            "result": {
+              "duration": 2341305300,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Choose Title Mr.",
+            "match": {
+              "location": "RegisterSteps.Choose_Title_Mr()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "98bd47b0-d947-4dae-9f1f-63c8467f9873"
+          },
+          {
+            "result": {
+              "duration": 713152700,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "Check Email field cannot click",
+            "match": {
+              "location": "RegisterSteps.Check_Email_field_cannot_click()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "90419c97-06c9-4133-99b3-bb47f251bde0"
+          },
+          {
+            "result": {
+              "duration": 8116418700,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "Choose random Date of birth",
+            "match": {
+              "location": "RegisterSteps.Choose_random_Date_of_birth()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "6bd23cf0-fce8-4ffc-acac-a74de61e774e"
+          },
+          {
+            "result": {
+              "duration": 1562484000,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Select checkbox : Sign up for our newsletter",
+            "match": {
+              "location": "RegisterSteps.Checkbox_Signup_for_our_newsletter()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "270ff34c-a288-45fa-8ece-e6c6c0ed85a1"
+          },
+          {
+            "result": {
+              "duration": 1224568400,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Select checkbox : Receive special offers from our partners",
+            "match": {
+              "location": "RegisterSteps.Checkbox_Receive_special_offers_from_our_partners()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "32d28373-0a58-42ae-8e25-8dfa4c3916b2"
+          },
+          {
+            "result": {
+              "duration": 1305721600,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Input Name Company in field Company",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name Company",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_Company_in_field_Company(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "5dde0926-d100-448f-94a1-525cc02f588e"
+          },
+          {
+            "result": {
+              "duration": 1256154000,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "Input sasdada in field Address 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sasdada",
+                  "offset": 6
+                }
+              ],
+              "location": "RegisterSteps.Input_Address2_in_field_Address(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "700f4bb3-0137-4518-adc4-18af90459aaa"
+          },
+          {
+            "result": {
+              "duration": 2842516200,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Click \u0027Create Account\u0027 button",
+            "match": {
+              "location": "RegisterSteps.Click_Create_Account_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "8d10eede-ae7e-40df-b95a-eec4135f7ee5"
+          },
+          {
+            "result": {
+              "duration": 3481554700,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Users cannot register and will navigated to fields Name",
+            "match": {
+              "location": "RegisterSteps.Users_cannot_register_will_navigated_to_fields_Name()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "4aec2149-9caf-4aa2-980a-2fa1452025bd"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Invalid"
+          }
+        ]
+      }
+    ],
+    "name": "Register Feature",
+    "description": "  As an Users\n  Users want to Register in the application \n  and navigate to home page with the newly registered account",
+    "id": "register-feature",
+    "keyword": "Feature",
+    "uri": "D:/My Project Katalon/BDD Cucumber Project/Include/features/Register.feature",
+    "tags": []
+  }
+]

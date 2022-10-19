@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="48.708505">
+<testcase classname="Search Product Feature" name="Test searching product existing" time="48.708505">
+<system-out><![CDATA[Given Users navigates to home page..........................................passed
+And Click on 'products' button..............................................passed
+When Users enters Winter Top into the search bar............................passed
+And Click on 'search' button................................................passed
+Then Users will get Winter Top result are shown on the results page.........passed
+]]></system-out>
+</testcase>
+</testsuite>

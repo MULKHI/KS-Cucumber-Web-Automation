@@ -1,0 +1,329 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "01ae5af2-81be-4277-b26c-758d7f202ca4",
+        "line": 6,
+        "name": "Users open login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 71549931100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Users navigates to home page",
+            "match": {
+              "location": "LoginSteps.Users_navigates_to_home_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "b6be2304-73fc-401e-aa0d-1094278a1de6"
+          },
+          {
+            "result": {
+              "duration": 10020290000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on \u0027Signup / Login\u0027 button",
+            "match": {
+              "location": "LoginSteps.Click_on_Signup_Login_Buutton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "3a556e2e-98f0-41d4-9d0a-7fd364b39807"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "01ae5af2-81be-4277-b26c-758d7f202ca4",
+        "line": 19,
+        "name": "Test login with valid credentials",
+        "description": "",
+        "id": "login-feature;test-login-with-valid-credentials;valid-credentials;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2767888500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enters an valid email testing123@gmail.com and valid password fzqqY0qJjYTuJiVJRZh4ag\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing123@gmail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "fzqqY0qJjYTuJiVJRZh4ag\u003d\u003d",
+                  "offset": 62
+                }
+              ],
+              "location": "LoginSteps.Users_enters_valid_username_password(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "fd258b9c-bde3-4458-81dd-6d671d9e423f"
+          },
+          {
+            "result": {
+              "duration": 5694644700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on \u0027login\u0027 button",
+            "match": {
+              "location": "LoginSteps.Click_on_login_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "66301748-5402-4270-850e-6b6acc04f6f8"
+          },
+          {
+            "result": {
+              "duration": 3948536000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Users is navigated to home page with account",
+            "match": {
+              "location": "LoginSteps.Users_is_navigated_to_homepage_with_account()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "8579c8f4-959a-4c54-9160-583df6a83c18"
+          },
+          {
+            "result": {
+              "duration": 31506691400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on \u0027Logout\u0027 button then users back to login page",
+            "match": {
+              "location": "LoginSteps.Click_on_Logout_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "f06d824e-f78b-4417-8e70-107d0ec2c7df"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Valid"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "92676adb-814b-47c5-b2e7-b20c4eec0159",
+        "line": 6,
+        "name": "Users open login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 20458886599,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Users navigates to home page",
+            "match": {
+              "location": "LoginSteps.Users_navigates_to_home_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "d7ca2311-ccd2-43ee-978e-19c2fb310d7c"
+          },
+          {
+            "result": {
+              "duration": 5839988600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on \u0027Signup / Login\u0027 button",
+            "match": {
+              "location": "LoginSteps.Click_on_Signup_Login_Buutton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e95462f9-de26-4c7b-97c2-1024af7202c3"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "92676adb-814b-47c5-b2e7-b20c4eec0159",
+        "line": 29,
+        "name": "Test login with invalid email and valid password",
+        "description": "",
+        "id": "login-feature;test-login-with-invalid-email-and-valid-password;invalid-email-and-valid-password;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2312411600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enters an invalid email invalid@gmail.com and valid password fzqqY0qJjYTuJiVJRZh4ag\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalid@gmail.com",
+                  "offset": 24
+                },
+                {
+                  "val": "fzqqY0qJjYTuJiVJRZh4ag\u003d\u003d",
+                  "offset": 61
+                }
+              ],
+              "location": "LoginSteps.Users_enters_an_invalid_username(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "cd4c3c7e-a440-497e-a9c3-fd440457197a"
+          },
+          {
+            "result": {
+              "duration": 3381992600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Click on \u0027login\u0027 button",
+            "match": {
+              "location": "LoginSteps.Click_on_login_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e01ef84f-f825-4b09-b71c-a907c96022b4"
+          },
+          {
+            "result": {
+              "duration": 2705883399,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Users should NOT be able to login successfully",
+            "match": {
+              "location": "LoginSteps.Users_login_unsuccessfully()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "85427af1-6c1e-4ef1-b699-8b61d6589625"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Invalid"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "a97f15a8-bfe5-4461-9b4e-6705af9033cd",
+        "line": 6,
+        "name": "Users open login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16965530700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Users navigates to home page",
+            "match": {
+              "location": "LoginSteps.Users_navigates_to_home_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "3878d21e-a18e-4166-83e4-0627c10eb004"
+          },
+          {
+            "result": {
+              "duration": 4254812400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on \u0027Signup / Login\u0027 button",
+            "match": {
+              "location": "LoginSteps.Click_on_Signup_Login_Buutton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "c10cfd85-c647-42e0-b2fc-ab90525c6d53"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "a97f15a8-bfe5-4461-9b4e-6705af9033cd",
+        "line": 39,
+        "name": "Test login with valid email and invalid password",
+        "description": "",
+        "id": "login-feature;test-login-with-valid-email-and-invalid-password;valid-email-and-invalid-password;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2343841200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Enters an valid email testing123@gmail.com and invalid password JLfwvezS/NRqKh2zfFaESQ\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing123@gmail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "JLfwvezS/NRqKh2zfFaESQ\u003d\u003d",
+                  "offset": 64
+                }
+              ],
+              "location": "LoginSteps.Users_enters_an_invalid_password(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "4dc23f30-210d-467f-9783-f7c50710c544"
+          },
+          {
+            "result": {
+              "duration": 3495422500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click on \u0027login\u0027 button",
+            "match": {
+              "location": "LoginSteps.Click_on_login_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "49e9d41f-3398-44f0-b414-e9c157092fbc"
+          },
+          {
+            "result": {
+              "duration": 4627901700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Users should NOT be able to login successfully",
+            "match": {
+              "location": "LoginSteps.Users_login_unsuccessfully()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "6abd03b9-a72c-410a-ae73-336d35ae494a"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Invalid"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "  As an Users\n  Users want to login in the application \n  and navigate to home page with the account",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "D:/My Project Katalon/BDD Cucumber Project/Include/features/Login.feature",
+    "tags": []
+  }
+]

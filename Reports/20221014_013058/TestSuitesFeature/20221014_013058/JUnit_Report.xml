@@ -1,0 +1,1277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuitesFeature" time="651.117" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuitesFeature" tests="1" failures="0" errors="0" time="651.117" skipped="0" timestamp="2022-10-14 01:31:21" hostname="user - Putra" id="Test Suites/TestSuitesFeature">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058"/>
+         <property name="logFiles" value="D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\execution0.log"/>
+         <property name="attachments" value="D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665685960407.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665685976120.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665685985539.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686014355.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686037694.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686045830.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686050843.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686068896.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686075627.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686080793.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686122049.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686134352.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686139434.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686194290.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686200842.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686222981.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686230603.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686235127.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686264818.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686270531.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686292021.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686299504.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686304388.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686305484.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686320596.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686327707.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686333295.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686353240.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686368905.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686380011.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686381385.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686404075.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686422465.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686433797.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686435115.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686437792.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686454760.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686466438.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686473966.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686480630.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686482160.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686485692.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686494650.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686507979.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686517667.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686519172.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686521950.png, D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686530343.png"/>
+         <property name="hostName" value="user - Putra"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="192.168.208.169"/>
+         <property name="sessionId" value="94e44306fc37e25f409a4314db75dea5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RunFeatureTest" time="649.939" classname="Test Cases/RunFeatureTest" status="PASSED">
+         <system-out><![CDATA[2022-10-14 01:31:22 - [TEST_CASE][PASSED] - Test Cases/RunFeatureTest: Test Cases/RunFeatureTest
+
+2022-10-14 01:31:22 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Login.feature"): Feature file: 'Include/features/Login.feature' was passed
+
+2022-10-14 01:31:23 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Login.feature' and extract report to folder: 'D:\My Project Katalon\BDD Cucumber Project\Reports\20221014_013058\TestSuitesFeature\20221014_013058/cucumber_report/1665685883137'...
+
+2022-10-14 01:31:31 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Test login with valid credentials: SCENARIO Test login with valid credentials
+
+2022-10-14 01:31:31 - [TEST_STEP][PASSED] - Users navigates to home page: Users navigates to home page
+
+2022-10-14 01:31:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-14 01:31:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-14 01:32:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-14 01:32:39 - [MESSAGE][PASSED] - Navigate to 'https://www.automationexercise.com/' successfully
+
+2022-10-14 01:32:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665685960407.png]]
+
+2022-10-14 01:32:43 - [MESSAGE][PASSED] - Users navigates to home page
+
+2022-10-14 01:32:43 - [TEST_STEP][PASSED] - Click on 'Signup / Login' button: Click on 'Signup / Login' button
+
+2022-10-14 01:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Signup  Login' is clicked on
+
+2022-10-14 01:32:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_Login to your account' are matched.
+
+2022-10-14 01:32:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_New User Signup' are matched.
+
+2022-10-14 01:32:53 - [MESSAGE][PASSED] - Click on 'Signup / Login' button
+
+2022-10-14 01:32:53 - [TEST_STEP][PASSED] - Enters an valid email testing123@gmail.com and valid password fzqqY0qJjYTuJiVJRZh4ag==: Enters an valid email testing123@gmail.com and valid password fzqqY0qJjYTuJiVJRZh4ag==
+
+2022-10-14 01:32:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_Login to your account' are matched.
+
+2022-10-14 01:32:55 - [MESSAGE][PASSED] - Text 'testing123@gmail.com' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email'
+
+2022-10-14 01:32:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password'
+
+2022-10-14 01:32:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665685976120.png]]
+
+2022-10-14 01:32:56 - [MESSAGE][PASSED] - Enters an valid email testing123@gmail.com and valid password fzqqY0qJjYTuJiVJRZh4ag==
+
+2022-10-14 01:32:56 - [TEST_STEP][PASSED] - Click on 'login' button: Click on 'login' button
+
+2022-10-14 01:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup  Login/button_Login' is clicked on
+
+2022-10-14 01:33:01 - [MESSAGE][PASSED] - Click on 'login' button
+
+2022-10-14 01:33:01 - [TEST_STEP][PASSED] - Users is navigated to home page with account: Users is navigated to home page with account
+
+2022-10-14 01:33:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise/a_Logged in as testing' is visible
+
+2022-10-14 01:33:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise/a_Logout' is visible
+
+2022-10-14 01:33:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise/a_Delete Account' is visible
+
+2022-10-14 01:33:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665685985539.png]]
+
+2022-10-14 01:33:05 - [MESSAGE][PASSED] - Users is navigated to home page with account
+
+2022-10-14 01:33:05 - [TEST_STEP][PASSED] - Click on 'Logout' button then users back to login page: Click on 'Logout' button then users back to login page
+
+2022-10-14 01:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Logout' is clicked on
+
+2022-10-14 01:33:33 - [MESSAGE][INFO] - HAR: D:\My Project Katalon\BDD Cucumber Project\Reports\20221014_013058\TestSuitesFeature\20221014_013058\requests\main\0.har
+
+2022-10-14 01:33:34 - [MESSAGE][PASSED] - Send request successfully
+
+2022-10-14 01:33:34 - [MESSAGE][PASSED] - All links are accessible
+
+2022-10-14 01:33:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686014355.png]]
+
+2022-10-14 01:33:37 - [MESSAGE][PASSED] - Browser is closed
+
+2022-10-14 01:33:37 - [MESSAGE][PASSED] - Click on 'Logout' button then users back to login page
+
+2022-10-14 01:33:37 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Test login with invalid email and valid password: SCENARIO Test login with invalid email and valid password
+
+2022-10-14 01:33:37 - [TEST_STEP][PASSED] - Users navigates to home page: Users navigates to home page
+
+2022-10-14 01:33:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-14 01:33:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-14 01:33:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-14 01:33:56 - [MESSAGE][PASSED] - Navigate to 'https://www.automationexercise.com/' successfully
+
+2022-10-14 01:33:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686037694.png]]
+
+2022-10-14 01:33:57 - [MESSAGE][PASSED] - Users navigates to home page
+
+2022-10-14 01:33:57 - [TEST_STEP][PASSED] - Click on 'Signup / Login' button: Click on 'Signup / Login' button
+
+2022-10-14 01:34:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Signup  Login' is clicked on
+
+2022-10-14 01:34:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_Login to your account' are matched.
+
+2022-10-14 01:34:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_New User Signup' are matched.
+
+2022-10-14 01:34:03 - [MESSAGE][PASSED] - Click on 'Signup / Login' button
+
+2022-10-14 01:34:03 - [TEST_STEP][PASSED] - Enters an invalid email invalid@gmail.com and valid password fzqqY0qJjYTuJiVJRZh4ag==: Enters an invalid email invalid@gmail.com and valid password fzqqY0qJjYTuJiVJRZh4ag==
+
+2022-10-14 01:34:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_Login to your account' are matched.
+
+2022-10-14 01:34:04 - [MESSAGE][PASSED] - Text 'invalid@gmail.com' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email'
+
+2022-10-14 01:34:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password'
+
+2022-10-14 01:34:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686045830.png]]
+
+2022-10-14 01:34:06 - [MESSAGE][PASSED] - Enters an invalid email invalid@gmail.com and valid password fzqqY0qJjYTuJiVJRZh4ag==
+
+2022-10-14 01:34:06 - [TEST_STEP][PASSED] - Click on 'login' button: Click on 'login' button
+
+2022-10-14 01:34:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup  Login/button_Login' is clicked on
+
+2022-10-14 01:34:09 - [MESSAGE][PASSED] - Click on 'login' button
+
+2022-10-14 01:34:09 - [TEST_STEP][PASSED] - Users should NOT be able to login successfully: Users should NOT be able to login successfully
+
+2022-10-14 01:34:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect' is visible
+
+2022-10-14 01:34:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686050843.png]]
+
+2022-10-14 01:34:12 - [MESSAGE][PASSED] - Browser is closed
+
+2022-10-14 01:34:12 - [MESSAGE][PASSED] - Users should NOT be able to login successfully
+
+2022-10-14 01:34:12 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Test login with valid email and invalid password: SCENARIO Test login with valid email and invalid password
+
+2022-10-14 01:34:12 - [TEST_STEP][PASSED] - Users navigates to home page: Users navigates to home page
+
+2022-10-14 01:34:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-14 01:34:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-14 01:34:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-14 01:34:27 - [MESSAGE][PASSED] - Navigate to 'https://www.automationexercise.com/' successfully
+
+2022-10-14 01:34:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686068896.png]]
+
+2022-10-14 01:34:29 - [MESSAGE][PASSED] - Users navigates to home page
+
+2022-10-14 01:34:29 - [TEST_STEP][PASSED] - Click on 'Signup / Login' button: Click on 'Signup / Login' button
+
+2022-10-14 01:34:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Signup  Login' is clicked on
+
+2022-10-14 01:34:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_Login to your account' are matched.
+
+2022-10-14 01:34:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_New User Signup' are matched.
+
+2022-10-14 01:34:33 - [MESSAGE][PASSED] - Click on 'Signup / Login' button
+
+2022-10-14 01:34:33 - [TEST_STEP][PASSED] - Enters an valid email testing123@gmail.com and invalid password JLfwvezS/NRqKh2zfFaESQ==: Enters an valid email testing123@gmail.com and invalid password JLfwvezS/NRqKh2zfFaESQ==
+
+2022-10-14 01:34:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_Login to your account' are matched.
+
+2022-10-14 01:34:34 - [MESSAGE][PASSED] - Text 'testing123@gmail.com' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_email'
+
+2022-10-14 01:34:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_Login to your account_password'
+
+2022-10-14 01:34:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686075627.png]]
+
+2022-10-14 01:34:35 - [MESSAGE][PASSED] - Enters an valid email testing123@gmail.com and invalid password JLfwvezS/NRqKh2zfFaESQ==
+
+2022-10-14 01:34:35 - [TEST_STEP][PASSED] - Click on 'login' button: Click on 'login' button
+
+2022-10-14 01:34:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup  Login/button_Login' is clicked on
+
+2022-10-14 01:34:39 - [MESSAGE][PASSED] - Click on 'login' button
+
+2022-10-14 01:34:39 - [TEST_STEP][PASSED] - Users should NOT be able to login successfully: Users should NOT be able to login successfully
+
+2022-10-14 01:34:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect' is visible
+
+2022-10-14 01:34:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686080793.png]]
+
+2022-10-14 01:34:43 - [MESSAGE][PASSED] - Browser is closed
+
+2022-10-14 01:34:43 - [MESSAGE][PASSED] - Users should NOT be able to login successfully
+
+2022-10-14 01:34:45 - [MESSAGE][PASSED] - Feature file: 'Include/features/Login.feature' was passed
+
+2022-10-14 01:34:45 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Register.feature"): Feature file: 'Include/features/Register.feature' was passed
+
+2022-10-14 01:34:45 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Register.feature' and extract report to folder: 'D:\My Project Katalon\BDD Cucumber Project\Reports\20221014_013058\TestSuitesFeature\20221014_013058/cucumber_report/1665686085460'...
+
+2022-10-14 01:34:45 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Test Register Users completing all the fields: SCENARIO Test Register Users completing all the fields
+
+2022-10-14 01:34:45 - [TEST_STEP][PASSED] - Users navigates to home page: Users navigates to home page
+
+2022-10-14 01:34:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-14 01:34:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-14 01:34:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-14 01:35:20 - [MESSAGE][PASSED] - Navigate to 'https://www.automationexercise.com/' successfully
+
+2022-10-14 01:35:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686122049.png]]
+
+2022-10-14 01:35:22 - [MESSAGE][PASSED] - Users navigates to home page
+
+2022-10-14 01:35:22 - [TEST_STEP][PASSED] - Click on 'Signup / Login' button: Click on 'Signup / Login' button
+
+2022-10-14 01:35:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Signup  Login' is clicked on
+
+2022-10-14 01:35:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_Login to your account' are matched.
+
+2022-10-14 01:35:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_New User Signup' are matched.
+
+2022-10-14 01:35:29 - [MESSAGE][PASSED] - Click on 'Signup / Login' button
+
+2022-10-14 01:35:29 - [TEST_STEP][PASSED] - Enters an name test1 and email address telopd@gmail.com: Enters an name test1 and email address telopd@gmail.com
+
+2022-10-14 01:35:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_New User Signup' are matched.
+
+2022-10-14 01:35:33 - [MESSAGE][PASSED] - Text 'test1' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_New User Signup_name'
+
+2022-10-14 01:35:34 - [MESSAGE][PASSED] - Text 'telopd@gmail.com' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_New User Signup_email'
+
+2022-10-14 01:35:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686134352.png]]
+
+2022-10-14 01:35:35 - [MESSAGE][PASSED] - Enters an name test1 and email address telopd@gmail.com
+
+2022-10-14 01:35:35 - [TEST_STEP][PASSED] - Click on 'signup' button: Click on 'signup' button
+
+2022-10-14 01:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup  Login/button_Signup' is clicked on
+
+2022-10-14 01:35:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686139434.png]]
+
+2022-10-14 01:35:39 - [MESSAGE][PASSED] - Click on 'signup' button
+
+2022-10-14 01:35:39 - [TEST_STEP][PASSED] - Choose Title Mr.: Choose Title Mr.
+
+2022-10-14 01:35:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:35:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Signup/b_Enter Account Information' is present
+
+2022-10-14 01:35:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Title' are matched.
+
+2022-10-14 01:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup/input_Mr_title' is clicked on
+
+2022-10-14 01:35:41 - [MESSAGE][PASSED] - Choose Title Mr.
+
+2022-10-14 01:35:41 - [TEST_STEP][PASSED] - Input test1 in field Name: Input test1 in field Name
+
+2022-10-14 01:35:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Name' are matched.
+
+2022-10-14 01:35:42 - [MESSAGE][PASSED] - Text 'test1' is set on object 'Object Repository/Page_Automation Exercise - Signup/input__name'
+
+2022-10-14 01:35:42 - [MESSAGE][PASSED] - Input test1 in field Name
+
+2022-10-14 01:35:42 - [TEST_STEP][PASSED] - Check Email field cannot click: Check Email field cannot click
+
+2022-10-14 01:35:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Email' are matched.
+
+2022-10-14 01:35:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Signup/input__email' is NOT clickable
+
+2022-10-14 01:35:43 - [MESSAGE][PASSED] - Check Email field cannot click
+
+2022-10-14 01:35:43 - [TEST_STEP][PASSED] - Input JLfwvezS/NRqKh2zfFaESQ== in field Password: Input JLfwvezS/NRqKh2zfFaESQ== in field Password
+
+2022-10-14 01:35:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Password' are matched.
+
+2022-10-14 01:35:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Automation Exercise - Signup/input__password'
+
+2022-10-14 01:35:44 - [MESSAGE][PASSED] - Input JLfwvezS/NRqKh2zfFaESQ== in field Password
+
+2022-10-14 01:35:44 - [TEST_STEP][PASSED] - Choose random Date of birth: Choose random Date of birth
+
+2022-10-14 01:35:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Date of Birth' are matched.
+
+2022-10-14 01:35:47 - [MESSAGE][PASSED] - All options with value '18' are selected in object 'Object Repository/Page_Automation Exercise - Signup/select_Day123456789101112131415161718192021_40ab5b'  using regular expression
+
+2022-10-14 01:35:50 - [MESSAGE][PASSED] - All options with value '8' are selected in object 'Object Repository/Page_Automation Exercise - Signup/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb'  using regular expression
+
+2022-10-14 01:35:54 - [MESSAGE][PASSED] - All options with value '2003' are selected in object 'Object Repository/Page_Automation Exercise - Signup/select_Year20212020201920182017201620152014_f874ed'  using regular expression
+
+2022-10-14 01:35:54 - [MESSAGE][PASSED] - Choose random Date of birth
+
+2022-10-14 01:35:54 - [TEST_STEP][PASSED] - Select checkbox : Sign up for our newsletter: Select checkbox : Sign up for our newsletter
+
+2022-10-14 01:35:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Sign up for our newsletter' are matched.
+
+2022-10-14 01:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup/input_Date of Birth_newsletter' is clicked on
+
+2022-10-14 01:35:55 - [MESSAGE][PASSED] - Select checkbox : Sign up for our newsletter
+
+2022-10-14 01:35:55 - [TEST_STEP][PASSED] - Select checkbox : Receive special offers from our partners: Select checkbox : Receive special offers from our partners
+
+2022-10-14 01:35:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Receive special offers from our partners' are matched.
+
+2022-10-14 01:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup/input_Sign up for our newsletter_optin' is clicked on
+
+2022-10-14 01:35:55 - [MESSAGE][PASSED] - Select checkbox : Receive special offers from our partners
+
+2022-10-14 01:35:55 - [TEST_STEP][PASSED] - Input test1 in field First Name: Input test1 in field First Name
+
+2022-10-14 01:35:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:35:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Signup/b_Address Information' is present
+
+2022-10-14 01:35:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_First name' are matched.
+
+2022-10-14 01:35:57 - [MESSAGE][PASSED] - Text 'test1' is set on object 'Object Repository/Page_Automation Exercise - Signup/input__first_name'
+
+2022-10-14 01:35:57 - [MESSAGE][PASSED] - Input test1 in field First Name
+
+2022-10-14 01:35:57 - [TEST_STEP][PASSED] - Input everload in field Last Name: Input everload in field Last Name
+
+2022-10-14 01:35:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Last name' are matched.
+
+2022-10-14 01:35:58 - [MESSAGE][PASSED] - Text 'everload' is set on object 'Object Repository/Page_Automation Exercise - Signup/input__last_name'
+
+2022-10-14 01:35:58 - [MESSAGE][PASSED] - Input everload in field Last Name
+
+2022-10-14 01:35:58 - [TEST_STEP][PASSED] - Input Name Company in field Company: Input Name Company in field Company
+
+2022-10-14 01:35:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Company' are matched.
+
+2022-10-14 01:36:00 - [MESSAGE][PASSED] - Text 'Name Company' is set on object 'Object Repository/Page_Automation Exercise - Signup/input_Company_company'
+
+2022-10-14 01:36:00 - [MESSAGE][PASSED] - Input Name Company in field Company
+
+2022-10-14 01:36:00 - [TEST_STEP][PASSED] - Input sadadd in field Address: Input sadadd in field Address
+
+2022-10-14 01:36:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Address  (Street address, P.O. Box, C_77cafc' are matched.
+
+2022-10-14 01:36:02 - [MESSAGE][PASSED] - Text 'sadadd' is set on object 'Object Repository/Page_Automation Exercise - Signup/input_(Street address, P.O. Box, Company na_957d3e'
+
+2022-10-14 01:36:02 - [MESSAGE][PASSED] - Input sadadd in field Address
+
+2022-10-14 01:36:02 - [TEST_STEP][PASSED] - Input sasdada in field Address 2: Input sasdada in field Address 2
+
+2022-10-14 01:36:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Address 2' are matched.
+
+2022-10-14 01:36:03 - [MESSAGE][PASSED] - Text 'sasdada' is set on object 'Object Repository/Page_Automation Exercise - Signup/input_Address 2_address2'
+
+2022-10-14 01:36:03 - [MESSAGE][PASSED] - Input sasdada in field Address 2
+
+2022-10-14 01:36:03 - [TEST_STEP][PASSED] - Choose Country Canada: Choose Country Canada
+
+2022-10-14 01:36:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Country' are matched.
+
+2022-10-14 01:36:05 - [MESSAGE][PASSED] - All options with value 'Canada' are selected in object 'Object Repository/Page_Automation Exercise - Signup/select_IndiaUnited StatesCanadaAustraliaIsr_09757b'  using regular expression
+
+2022-10-14 01:36:05 - [MESSAGE][PASSED] - Choose Country Canada
+
+2022-10-14 01:36:05 - [TEST_STEP][PASSED] - Input sdadadad in field State: Input sdadadad in field State
+
+2022-10-14 01:36:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_State' are matched.
+
+2022-10-14 01:36:07 - [MESSAGE][PASSED] - Text 'sdadadad' is set on object 'Object Repository/Page_Automation Exercise - Signup/input__state'
+
+2022-10-14 01:36:07 - [MESSAGE][PASSED] - Input sdadadad in field State
+
+2022-10-14 01:36:07 - [TEST_STEP][PASSED] - Input Paris in field City: Input Paris in field City
+
+2022-10-14 01:36:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_City' are matched.
+
+2022-10-14 01:36:09 - [MESSAGE][PASSED] - Text 'Paris' is set on object 'Object Repository/Page_Automation Exercise - Signup/input__city'
+
+2022-10-14 01:36:09 - [MESSAGE][PASSED] - Input Paris in field City
+
+2022-10-14 01:36:09 - [TEST_STEP][PASSED] - Input 04432 in field Zipcode: Input 04432 in field Zipcode
+
+2022-10-14 01:36:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Zipcode' are matched.
+
+2022-10-14 01:36:10 - [MESSAGE][PASSED] - Text '04432' is set on object 'Object Repository/Page_Automation Exercise - Signup/input__zipcode'
+
+2022-10-14 01:36:10 - [MESSAGE][PASSED] - Input 04432 in field Zipcode
+
+2022-10-14 01:36:10 - [TEST_STEP][PASSED] - Input 0868746777 in field Mobile Number: Input 0868746777 in field Mobile Number
+
+2022-10-14 01:36:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Mobile Number' are matched.
+
+2022-10-14 01:36:11 - [MESSAGE][PASSED] - Text '0868746777' is set on object 'Object Repository/Page_Automation Exercise - Signup/input__mobile_number'
+
+2022-10-14 01:36:11 - [MESSAGE][PASSED] - Input 0868746777 in field Mobile Number
+
+2022-10-14 01:36:11 - [TEST_STEP][PASSED] - Click 'Create Account' button: Click 'Create Account' button
+
+2022-10-14 01:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup/button_Create Account' is clicked on
+
+2022-10-14 01:36:16 - [MESSAGE][PASSED] - Click 'Create Account' button
+
+2022-10-14 01:36:16 - [TEST_STEP][PASSED] - Users is navigated to page ACCOUNT CREATED and click 'Continue' button: Users is navigated to page ACCOUNT CREATED and click 'Continue' button
+
+2022-10-14 01:36:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:36:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Account Created/b_Account Created' is present
+
+2022-10-14 01:36:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Account Created/a_Continue' is clicked on
+
+2022-10-14 01:36:31 - [MESSAGE][PASSED] - Users is navigated to page ACCOUNT CREATED and click 'Continue' button
+
+2022-10-14 01:36:31 - [TEST_STEP][PASSED] - Users is navigated to home page with account: Users is navigated to home page with account
+
+2022-10-14 01:36:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise/a_Logged in as testing' is visible
+
+2022-10-14 01:36:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise/a_Logout' is visible
+
+2022-10-14 01:36:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise/a_Delete Account' is visible
+
+2022-10-14 01:36:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686194290.png]]
+
+2022-10-14 01:36:34 - [MESSAGE][PASSED] - Users is navigated to home page with account
+
+2022-10-14 01:36:34 - [TEST_STEP][PASSED] - Click on 'Logout' button then users back to login page: Click on 'Logout' button then users back to login page
+
+2022-10-14 01:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Logout' is clicked on
+
+2022-10-14 01:36:40 - [MESSAGE][INFO] - HAR: D:\My Project Katalon\BDD Cucumber Project\Reports\20221014_013058\TestSuitesFeature\20221014_013058\requests\main\1.har
+
+2022-10-14 01:36:40 - [MESSAGE][PASSED] - Send request successfully
+
+2022-10-14 01:36:40 - [MESSAGE][PASSED] - All links are accessible
+
+2022-10-14 01:36:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686200842.png]]
+
+2022-10-14 01:36:45 - [MESSAGE][PASSED] - Browser is closed
+
+2022-10-14 01:36:45 - [MESSAGE][PASSED] - Click on 'Logout' button then users back to login page
+
+2022-10-14 01:36:45 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Test Register only input in mandatory fields: SCENARIO Test Register only input in mandatory fields
+
+2022-10-14 01:36:45 - [TEST_STEP][PASSED] - Users navigates to home page: Users navigates to home page
+
+2022-10-14 01:36:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-14 01:36:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-14 01:36:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-14 01:37:01 - [MESSAGE][PASSED] - Navigate to 'https://www.automationexercise.com/' successfully
+
+2022-10-14 01:37:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686222981.png]]
+
+2022-10-14 01:37:03 - [MESSAGE][PASSED] - Users navigates to home page
+
+2022-10-14 01:37:03 - [TEST_STEP][PASSED] - Click on 'Signup / Login' button: Click on 'Signup / Login' button
+
+2022-10-14 01:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Signup  Login' is clicked on
+
+2022-10-14 01:37:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_Login to your account' are matched.
+
+2022-10-14 01:37:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_New User Signup' are matched.
+
+2022-10-14 01:37:08 - [MESSAGE][PASSED] - Click on 'Signup / Login' button
+
+2022-10-14 01:37:08 - [TEST_STEP][PASSED] - Enters an name test2 and email address tejouyuis@gmail.com: Enters an name test2 and email address tejouyuis@gmail.com
+
+2022-10-14 01:37:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_New User Signup' are matched.
+
+2022-10-14 01:37:09 - [MESSAGE][PASSED] - Text 'test2' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_New User Signup_name'
+
+2022-10-14 01:37:10 - [MESSAGE][PASSED] - Text 'tejouyuis@gmail.com' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_New User Signup_email'
+
+2022-10-14 01:37:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686230603.png]]
+
+2022-10-14 01:37:10 - [MESSAGE][PASSED] - Enters an name test2 and email address tejouyuis@gmail.com
+
+2022-10-14 01:37:10 - [TEST_STEP][PASSED] - Click on 'signup' button: Click on 'signup' button
+
+2022-10-14 01:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup  Login/button_Signup' is clicked on
+
+2022-10-14 01:37:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686235127.png]]
+
+2022-10-14 01:37:15 - [MESSAGE][PASSED] - Click on 'signup' button
+
+2022-10-14 01:37:15 - [TEST_STEP][PASSED] - Input test2 in field Name: Input test2 in field Name
+
+2022-10-14 01:37:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Name' are matched.
+
+2022-10-14 01:37:16 - [MESSAGE][PASSED] - Text 'test2' is set on object 'Object Repository/Page_Automation Exercise - Signup/input__name'
+
+2022-10-14 01:37:16 - [MESSAGE][PASSED] - Input test2 in field Name
+
+2022-10-14 01:37:16 - [TEST_STEP][PASSED] - Check Email field cannot click: Check Email field cannot click
+
+2022-10-14 01:37:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Email' are matched.
+
+2022-10-14 01:37:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Signup/input__email' is NOT clickable
+
+2022-10-14 01:37:17 - [MESSAGE][PASSED] - Check Email field cannot click
+
+2022-10-14 01:37:17 - [TEST_STEP][PASSED] - Input o4HjxlJLVB5Fa64+Hon+OOTdR5Uf8246 in field Password: Input o4HjxlJLVB5Fa64+Hon+OOTdR5Uf8246 in field Password
+
+2022-10-14 01:37:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Password' are matched.
+
+2022-10-14 01:37:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Automation Exercise - Signup/input__password'
+
+2022-10-14 01:37:18 - [MESSAGE][PASSED] - Input o4HjxlJLVB5Fa64+Hon+OOTdR5Uf8246 in field Password
+
+2022-10-14 01:37:18 - [TEST_STEP][PASSED] - Input testkedua in field First Name: Input testkedua in field First Name
+
+2022-10-14 01:37:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:37:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Signup/b_Address Information' is present
+
+2022-10-14 01:37:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_First name' are matched.
+
+2022-10-14 01:37:19 - [MESSAGE][PASSED] - Text 'testkedua' is set on object 'Object Repository/Page_Automation Exercise - Signup/input__first_name'
+
+2022-10-14 01:37:19 - [MESSAGE][PASSED] - Input testkedua in field First Name
+
+2022-10-14 01:37:19 - [TEST_STEP][PASSED] - Input deep in field Last Name: Input deep in field Last Name
+
+2022-10-14 01:37:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Last name' are matched.
+
+2022-10-14 01:37:21 - [MESSAGE][PASSED] - Text 'deep' is set on object 'Object Repository/Page_Automation Exercise - Signup/input__last_name'
+
+2022-10-14 01:37:21 - [MESSAGE][PASSED] - Input deep in field Last Name
+
+2022-10-14 01:37:21 - [TEST_STEP][PASSED] - Input sadadd in field Address: Input sadadd in field Address
+
+2022-10-14 01:37:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Address  (Street address, P.O. Box, C_77cafc' are matched.
+
+2022-10-14 01:37:22 - [MESSAGE][PASSED] - Text 'sadadd' is set on object 'Object Repository/Page_Automation Exercise - Signup/input_(Street address, P.O. Box, Company na_957d3e'
+
+2022-10-14 01:37:22 - [MESSAGE][PASSED] - Input sadadd in field Address
+
+2022-10-14 01:37:22 - [TEST_STEP][PASSED] - Choose Country Canada: Choose Country Canada
+
+2022-10-14 01:37:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Country' are matched.
+
+2022-10-14 01:37:24 - [MESSAGE][PASSED] - All options with value 'Canada' are selected in object 'Object Repository/Page_Automation Exercise - Signup/select_IndiaUnited StatesCanadaAustraliaIsr_09757b'  using regular expression
+
+2022-10-14 01:37:24 - [MESSAGE][PASSED] - Choose Country Canada
+
+2022-10-14 01:37:24 - [TEST_STEP][PASSED] - Input sdadadad in field State: Input sdadadad in field State
+
+2022-10-14 01:37:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_State' are matched.
+
+2022-10-14 01:37:26 - [MESSAGE][PASSED] - Text 'sdadadad' is set on object 'Object Repository/Page_Automation Exercise - Signup/input__state'
+
+2022-10-14 01:37:26 - [MESSAGE][PASSED] - Input sdadadad in field State
+
+2022-10-14 01:37:26 - [TEST_STEP][PASSED] - Input Paris in field City: Input Paris in field City
+
+2022-10-14 01:37:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_City' are matched.
+
+2022-10-14 01:37:27 - [MESSAGE][PASSED] - Text 'Paris' is set on object 'Object Repository/Page_Automation Exercise - Signup/input__city'
+
+2022-10-14 01:37:27 - [MESSAGE][PASSED] - Input Paris in field City
+
+2022-10-14 01:37:27 - [TEST_STEP][PASSED] - Input 04432 in field Zipcode: Input 04432 in field Zipcode
+
+2022-10-14 01:37:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Zipcode' are matched.
+
+2022-10-14 01:37:28 - [MESSAGE][PASSED] - Text '04432' is set on object 'Object Repository/Page_Automation Exercise - Signup/input__zipcode'
+
+2022-10-14 01:37:28 - [MESSAGE][PASSED] - Input 04432 in field Zipcode
+
+2022-10-14 01:37:28 - [TEST_STEP][PASSED] - Input 0868746777 in field Mobile Number: Input 0868746777 in field Mobile Number
+
+2022-10-14 01:37:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Mobile Number' are matched.
+
+2022-10-14 01:37:29 - [MESSAGE][PASSED] - Text '0868746777' is set on object 'Object Repository/Page_Automation Exercise - Signup/input__mobile_number'
+
+2022-10-14 01:37:29 - [MESSAGE][PASSED] - Input 0868746777 in field Mobile Number
+
+2022-10-14 01:37:29 - [TEST_STEP][PASSED] - Click 'Create Account' button: Click 'Create Account' button
+
+2022-10-14 01:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup/button_Create Account' is clicked on
+
+2022-10-14 01:37:34 - [MESSAGE][PASSED] - Click 'Create Account' button
+
+2022-10-14 01:37:34 - [TEST_STEP][PASSED] - Users is navigated to page ACCOUNT CREATED and click 'Continue' button: Users is navigated to page ACCOUNT CREATED and click 'Continue' button
+
+2022-10-14 01:37:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:37:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Account Created/b_Account Created' is present
+
+2022-10-14 01:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Account Created/a_Continue' is clicked on
+
+2022-10-14 01:37:42 - [MESSAGE][PASSED] - Users is navigated to page ACCOUNT CREATED and click 'Continue' button
+
+2022-10-14 01:37:42 - [TEST_STEP][PASSED] - Users is navigated to home page with account: Users is navigated to home page with account
+
+2022-10-14 01:37:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise/a_Logged in as testing' is visible
+
+2022-10-14 01:37:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise/a_Logout' is visible
+
+2022-10-14 01:37:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise/a_Delete Account' is visible
+
+2022-10-14 01:37:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686264818.png]]
+
+2022-10-14 01:37:45 - [MESSAGE][PASSED] - Users is navigated to home page with account
+
+2022-10-14 01:37:45 - [TEST_STEP][PASSED] - Click on 'Logout' button then users back to login page: Click on 'Logout' button then users back to login page
+
+2022-10-14 01:37:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Logout' is clicked on
+
+2022-10-14 01:37:50 - [MESSAGE][INFO] - HAR: D:\My Project Katalon\BDD Cucumber Project\Reports\20221014_013058\TestSuitesFeature\20221014_013058\requests\main\2.har
+
+2022-10-14 01:37:50 - [MESSAGE][PASSED] - Send request successfully
+
+2022-10-14 01:37:50 - [MESSAGE][PASSED] - All links are accessible
+
+2022-10-14 01:37:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686270531.png]]
+
+2022-10-14 01:37:53 - [MESSAGE][PASSED] - Browser is closed
+
+2022-10-14 01:37:53 - [MESSAGE][PASSED] - Click on 'Logout' button then users back to login page
+
+2022-10-14 01:37:53 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Test Register an existing Name/Email: SCENARIO Test Register an existing Name/Email
+
+2022-10-14 01:37:53 - [TEST_STEP][PASSED] - Users navigates to home page: Users navigates to home page
+
+2022-10-14 01:37:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-14 01:37:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-14 01:37:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-14 01:38:11 - [MESSAGE][PASSED] - Navigate to 'https://www.automationexercise.com/' successfully
+
+2022-10-14 01:38:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686292021.png]]
+
+2022-10-14 01:38:12 - [MESSAGE][PASSED] - Users navigates to home page
+
+2022-10-14 01:38:12 - [TEST_STEP][PASSED] - Click on 'Signup / Login' button: Click on 'Signup / Login' button
+
+2022-10-14 01:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Signup  Login' is clicked on
+
+2022-10-14 01:38:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_Login to your account' are matched.
+
+2022-10-14 01:38:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_New User Signup' are matched.
+
+2022-10-14 01:38:17 - [MESSAGE][PASSED] - Click on 'Signup / Login' button
+
+2022-10-14 01:38:17 - [TEST_STEP][PASSED] - Enters an name Peater and email address NotEmail@gmail.com: Enters an name Peater and email address NotEmail@gmail.com
+
+2022-10-14 01:38:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_New User Signup' are matched.
+
+2022-10-14 01:38:18 - [MESSAGE][PASSED] - Text 'Peater' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_New User Signup_name'
+
+2022-10-14 01:38:19 - [MESSAGE][PASSED] - Text 'NotEmail@gmail.com' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_New User Signup_email'
+
+2022-10-14 01:38:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686299504.png]]
+
+2022-10-14 01:38:19 - [MESSAGE][PASSED] - Enters an name Peater and email address NotEmail@gmail.com
+
+2022-10-14 01:38:19 - [TEST_STEP][PASSED] - Click on 'signup' button: Click on 'signup' button
+
+2022-10-14 01:38:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup  Login/button_Signup' is clicked on
+
+2022-10-14 01:38:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686304388.png]]
+
+2022-10-14 01:38:24 - [MESSAGE][PASSED] - Click on 'signup' button
+
+2022-10-14 01:38:24 - [TEST_STEP][PASSED] - Users cannot register using existing email address: Users cannot register using existing email address
+
+2022-10-14 01:38:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/p_Email Address already exist' are matched.
+
+2022-10-14 01:38:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686305484.png]]
+
+2022-10-14 01:38:27 - [MESSAGE][PASSED] - Browser is closed
+
+2022-10-14 01:38:27 - [MESSAGE][PASSED] - Users cannot register using existing email address
+
+2022-10-14 01:38:27 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Test Register without completing mandatory fields: SCENARIO Test Register without completing mandatory fields
+
+2022-10-14 01:38:27 - [TEST_STEP][PASSED] - Users navigates to home page: Users navigates to home page
+
+2022-10-14 01:38:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-14 01:38:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-14 01:38:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-14 01:38:39 - [MESSAGE][PASSED] - Navigate to 'https://www.automationexercise.com/' successfully
+
+2022-10-14 01:38:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686320596.png]]
+
+2022-10-14 01:38:40 - [MESSAGE][PASSED] - Users navigates to home page
+
+2022-10-14 01:38:40 - [TEST_STEP][PASSED] - Click on 'Signup / Login' button: Click on 'Signup / Login' button
+
+2022-10-14 01:38:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Signup  Login' is clicked on
+
+2022-10-14 01:38:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_Login to your account' are matched.
+
+2022-10-14 01:38:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_New User Signup' are matched.
+
+2022-10-14 01:38:45 - [MESSAGE][PASSED] - Click on 'Signup / Login' button
+
+2022-10-14 01:38:45 - [TEST_STEP][PASSED] - Enters an name test4 and email address teslkjhjdr@gmail.com: Enters an name test4 and email address teslkjhjdr@gmail.com
+
+2022-10-14 01:38:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup  Login/h2_New User Signup' are matched.
+
+2022-10-14 01:38:46 - [MESSAGE][PASSED] - Text 'test4' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_New User Signup_name'
+
+2022-10-14 01:38:47 - [MESSAGE][PASSED] - Text 'teslkjhjdr@gmail.com' is set on object 'Object Repository/Page_Automation Exercise - Signup  Login/input_New User Signup_email'
+
+2022-10-14 01:38:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686327707.png]]
+
+2022-10-14 01:38:47 - [MESSAGE][PASSED] - Enters an name test4 and email address teslkjhjdr@gmail.com
+
+2022-10-14 01:38:47 - [TEST_STEP][PASSED] - Click on 'signup' button: Click on 'signup' button
+
+2022-10-14 01:38:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup  Login/button_Signup' is clicked on
+
+2022-10-14 01:38:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686333295.png]]
+
+2022-10-14 01:38:53 - [MESSAGE][PASSED] - Click on 'signup' button
+
+2022-10-14 01:38:53 - [TEST_STEP][PASSED] - Choose Title Mr.: Choose Title Mr.
+
+2022-10-14 01:38:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:38:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Signup/b_Enter Account Information' is present
+
+2022-10-14 01:38:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Title' are matched.
+
+2022-10-14 01:38:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup/input_Mr_title' is clicked on
+
+2022-10-14 01:38:55 - [MESSAGE][PASSED] - Choose Title Mr.
+
+2022-10-14 01:38:55 - [TEST_STEP][PASSED] - Check Email field cannot click: Check Email field cannot click
+
+2022-10-14 01:38:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Email' are matched.
+
+2022-10-14 01:38:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Signup/input__email' is NOT clickable
+
+2022-10-14 01:38:56 - [MESSAGE][PASSED] - Check Email field cannot click
+
+2022-10-14 01:38:56 - [TEST_STEP][PASSED] - Choose random Date of birth: Choose random Date of birth
+
+2022-10-14 01:38:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Date of Birth' are matched.
+
+2022-10-14 01:38:59 - [MESSAGE][PASSED] - All options with value '18' are selected in object 'Object Repository/Page_Automation Exercise - Signup/select_Day123456789101112131415161718192021_40ab5b'  using regular expression
+
+2022-10-14 01:39:01 - [MESSAGE][PASSED] - All options with value '8' are selected in object 'Object Repository/Page_Automation Exercise - Signup/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb'  using regular expression
+
+2022-10-14 01:39:04 - [MESSAGE][PASSED] - All options with value '2003' are selected in object 'Object Repository/Page_Automation Exercise - Signup/select_Year20212020201920182017201620152014_f874ed'  using regular expression
+
+2022-10-14 01:39:04 - [MESSAGE][PASSED] - Choose random Date of birth
+
+2022-10-14 01:39:04 - [TEST_STEP][PASSED] - Select checkbox : Sign up for our newsletter: Select checkbox : Sign up for our newsletter
+
+2022-10-14 01:39:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Sign up for our newsletter' are matched.
+
+2022-10-14 01:39:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup/input_Date of Birth_newsletter' is clicked on
+
+2022-10-14 01:39:06 - [MESSAGE][PASSED] - Select checkbox : Sign up for our newsletter
+
+2022-10-14 01:39:06 - [TEST_STEP][PASSED] - Select checkbox : Receive special offers from our partners: Select checkbox : Receive special offers from our partners
+
+2022-10-14 01:39:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Receive special offers from our partners' are matched.
+
+2022-10-14 01:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup/input_Sign up for our newsletter_optin' is clicked on
+
+2022-10-14 01:39:07 - [MESSAGE][PASSED] - Select checkbox : Receive special offers from our partners
+
+2022-10-14 01:39:07 - [TEST_STEP][PASSED] - Input Name Company in field Company: Input Name Company in field Company
+
+2022-10-14 01:39:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Company' are matched.
+
+2022-10-14 01:39:08 - [MESSAGE][PASSED] - Text 'Name Company' is set on object 'Object Repository/Page_Automation Exercise - Signup/input_Company_company'
+
+2022-10-14 01:39:08 - [MESSAGE][PASSED] - Input Name Company in field Company
+
+2022-10-14 01:39:08 - [TEST_STEP][PASSED] - Input sasdada in field Address 2: Input sasdada in field Address 2
+
+2022-10-14 01:39:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Signup/label_Address 2' are matched.
+
+2022-10-14 01:39:09 - [MESSAGE][PASSED] - Text 'sasdada' is set on object 'Object Repository/Page_Automation Exercise - Signup/input_Address 2_address2'
+
+2022-10-14 01:39:09 - [MESSAGE][PASSED] - Input sasdada in field Address 2
+
+2022-10-14 01:39:09 - [TEST_STEP][PASSED] - Click 'Create Account' button: Click 'Create Account' button
+
+2022-10-14 01:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Signup/button_Create Account' is clicked on
+
+2022-10-14 01:39:12 - [MESSAGE][PASSED] - Click 'Create Account' button
+
+2022-10-14 01:39:12 - [TEST_STEP][PASSED] - Users cannot register and will navigated to fields Name: Users cannot register and will navigated to fields Name
+
+2022-10-14 01:39:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686353240.png]]
+
+2022-10-14 01:39:16 - [MESSAGE][PASSED] - Browser is closed
+
+2022-10-14 01:39:16 - [MESSAGE][PASSED] - Users cannot register and will navigated to fields Name
+
+2022-10-14 01:39:16 - [MESSAGE][PASSED] - Feature file: 'Include/features/Register.feature' was passed
+
+2022-10-14 01:39:16 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Search Product.feature"): Feature file: 'Include/features/Search Product.feature' was passed
+
+2022-10-14 01:39:16 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Search Product.feature' and extract report to folder: 'D:\My Project Katalon\BDD Cucumber Project\Reports\20221014_013058\TestSuitesFeature\20221014_013058/cucumber_report/1665686356438'...
+
+2022-10-14 01:39:17 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Test searching product existing: SCENARIO Test searching product existing
+
+2022-10-14 01:39:17 - [TEST_STEP][PASSED] - Users navigates to home page: Users navigates to home page
+
+2022-10-14 01:39:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-14 01:39:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-14 01:39:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-14 01:39:28 - [MESSAGE][PASSED] - Navigate to 'https://www.automationexercise.com/' successfully
+
+2022-10-14 01:39:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686368905.png]]
+
+2022-10-14 01:39:29 - [MESSAGE][PASSED] - Users navigates to home page
+
+2022-10-14 01:39:29 - [TEST_STEP][PASSED] - Click on 'products' button: Click on 'products' button
+
+2022-10-14 01:39:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Products' is clicked on
+
+2022-10-14 01:39:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - All Products/h2_All Products' are matched.
+
+2022-10-14 01:39:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:39:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - All Products/div_All ProductsAddedYour product has been _e90caf' is present
+
+2022-10-14 01:39:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - All Products/h2_Category' are matched.
+
+2022-10-14 01:39:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:39:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - All Products/div_WomenDress Tops Saree MenTshirts Jeans _e0e1cf' is present
+
+2022-10-14 01:39:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - All Products/h2_Brands' are matched.
+
+2022-10-14 01:39:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:39:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - All Products/div_(6)Polo (5)HM (5)Madame (3)Mast  Harbou_8d694a' is present
+
+2022-10-14 01:39:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686380011.png]]
+
+2022-10-14 01:39:40 - [MESSAGE][PASSED] - Click on 'products' button
+
+2022-10-14 01:39:40 - [TEST_STEP][PASSED] - Users enters Winter Top into the search bar: Users enters Winter Top into the search bar
+
+2022-10-14 01:39:41 - [MESSAGE][PASSED] - Text 'Winter Top' is set on object 'Object Repository/Page_Automation Exercise - All Products/input_Contact us_search'
+
+2022-10-14 01:39:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686381385.png]]
+
+2022-10-14 01:39:51 - [MESSAGE][PASSED] - Users enters Winter Top into the search bar
+
+2022-10-14 01:39:51 - [TEST_STEP][PASSED] - Click on 'search' button: Click on 'search' button
+
+2022-10-14 01:40:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - All Products/button_Contact us_submit_search' is clicked on
+
+2022-10-14 01:40:00 - [MESSAGE][PASSED] - Click on 'search' button
+
+2022-10-14 01:40:00 - [TEST_STEP][PASSED] - Users will get Winter Top result are shown on the results page: Users will get Winter Top result are shown on the results page
+
+2022-10-14 01:40:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:40:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - All Products/div_Searched ProductsAddedYour product has _a70000' is present
+
+2022-10-14 01:40:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:40:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - All Products/div_Rs. 600Winter TopAdd to cartRs. 600Wint_78c90e' is present
+
+2022-10-14 01:40:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - All Products/div_Rs. 600Winter TopAdd to cartRs. 600Wint_78c90e' is visible
+
+2022-10-14 01:40:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686404075.png]]
+
+2022-10-14 01:40:06 - [MESSAGE][PASSED] - Browser is closed
+
+2022-10-14 01:40:06 - [MESSAGE][PASSED] - Users will get Winter Top result are shown on the results page
+
+2022-10-14 01:40:06 - [MESSAGE][PASSED] - Feature file: 'Include/features/Search Product.feature' was passed
+
+2022-10-14 01:40:06 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Add Product in Cart.feature"): Feature file: 'Include/features/Add Product in Cart.feature' was passed
+
+2022-10-14 01:40:06 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Add Product in Cart.feature' and extract report to folder: 'D:\My Project Katalon\BDD Cucumber Project\Reports\20221014_013058\TestSuitesFeature\20221014_013058/cucumber_report/1665686406211'...
+
+2022-10-14 01:40:06 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Test Add Product in Cart: SCENARIO Test Add Product in Cart
+
+2022-10-14 01:40:06 - [TEST_STEP][PASSED] - Users navigates to home page: Users navigates to home page
+
+2022-10-14 01:40:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-14 01:40:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-14 01:40:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-14 01:40:21 - [MESSAGE][PASSED] - Navigate to 'https://www.automationexercise.com/' successfully
+
+2022-10-14 01:40:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686422465.png]]
+
+2022-10-14 01:40:22 - [MESSAGE][PASSED] - Users navigates to home page
+
+2022-10-14 01:40:22 - [TEST_STEP][PASSED] - Click on 'products' button: Click on 'products' button
+
+2022-10-14 01:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Products' is clicked on
+
+2022-10-14 01:40:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - All Products/h2_All Products' are matched.
+
+2022-10-14 01:40:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:40:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - All Products/div_All ProductsAddedYour product has been _e90caf' is present
+
+2022-10-14 01:40:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - All Products/h2_Category' are matched.
+
+2022-10-14 01:40:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:40:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - All Products/div_WomenDress Tops Saree MenTshirts Jeans _e0e1cf' is present
+
+2022-10-14 01:40:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - All Products/h2_Brands' are matched.
+
+2022-10-14 01:40:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:40:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - All Products/div_(6)Polo (5)HM (5)Madame (3)Mast  Harbou_8d694a' is present
+
+2022-10-14 01:40:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686433797.png]]
+
+2022-10-14 01:40:33 - [MESSAGE][PASSED] - Click on 'products' button
+
+2022-10-14 01:40:33 - [TEST_STEP][PASSED] - Users click 'Add to cart' in product 'Blue Top': Users click 'Add to cart' in product 'Blue Top'
+
+2022-10-14 01:40:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - All Products/div_Rs. 500Blue TopAdd to cartRs. 500Blue T_abe546' is visible
+
+2022-10-14 01:40:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - All Products/p_Blue Top' are matched.
+
+2022-10-14 01:40:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686435115.png]]
+
+2022-10-14 01:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - All Products/a_Add to cart' is clicked on
+
+2022-10-14 01:40:35 - [MESSAGE][PASSED] - Users click 'Add to cart' in product 'Blue Top'
+
+2022-10-14 01:40:35 - [TEST_STEP][PASSED] - Click 'Continue Shopping' button: Click 'Continue Shopping' button
+
+2022-10-14 01:40:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:40:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - All Products/div_AddedYour product has been added to car_d7d02f' is present
+
+2022-10-14 01:40:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - All Products/h4_Added' are matched.
+
+2022-10-14 01:40:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686437792.png]]
+
+2022-10-14 01:40:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - All Products/button_Continue Shopping' is clicked on
+
+2022-10-14 01:40:43 - [MESSAGE][PASSED] - Click 'Continue Shopping' button
+
+2022-10-14 01:40:43 - [TEST_STEP][PASSED] - Click on 'Cart' button: Click on 'Cart' button
+
+2022-10-14 01:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - All Products/a_Cart' is clicked on
+
+2022-10-14 01:40:50 - [MESSAGE][INFO] - HAR: D:\My Project Katalon\BDD Cucumber Project\Reports\20221014_013058\TestSuitesFeature\20221014_013058\requests\main\3.har
+
+2022-10-14 01:40:50 - [MESSAGE][PASSED] - Send request successfully
+
+2022-10-14 01:40:50 - [MESSAGE][PASSED] - All links are accessible
+
+2022-10-14 01:40:50 - [MESSAGE][PASSED] - Click on 'Cart' button
+
+2022-10-14 01:40:50 - [TEST_STEP][PASSED] - Users will get the result products are added to Cart: Users will get the result products are added to Cart
+
+2022-10-14 01:40:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:40:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Checkout/tr_Blue TopWomen  TopsRs. 5001Rs. 500' is present
+
+2022-10-14 01:40:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Checkout/a_Blue Top' are matched.
+
+2022-10-14 01:40:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Checkout/p_Rs. 500' are matched.
+
+2022-10-14 01:40:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Checkout/button_1' are matched.
+
+2022-10-14 01:40:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Checkout/p_Rs. 500' are matched.
+
+2022-10-14 01:40:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Checkout/a_Blue Top_cart_quantity_delete' is visible
+
+2022-10-14 01:40:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686454760.png]]
+
+2022-10-14 01:40:56 - [MESSAGE][PASSED] - Browser is closed
+
+2022-10-14 01:40:56 - [MESSAGE][PASSED] - Users will get the result products are added to Cart
+
+2022-10-14 01:40:56 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Test Verify Product Quantity in Cart: SCENARIO Test Verify Product Quantity in Cart
+
+2022-10-14 01:40:56 - [TEST_STEP][PASSED] - Users navigates to home page: Users navigates to home page
+
+2022-10-14 01:40:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-14 01:40:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-14 01:40:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-14 01:41:05 - [MESSAGE][PASSED] - Navigate to 'https://www.automationexercise.com/' successfully
+
+2022-10-14 01:41:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686466438.png]]
+
+2022-10-14 01:41:06 - [MESSAGE][PASSED] - Users navigates to home page
+
+2022-10-14 01:41:06 - [TEST_STEP][PASSED] - Click on 'products' button: Click on 'products' button
+
+2022-10-14 01:41:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Products' is clicked on
+
+2022-10-14 01:41:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - All Products/h2_All Products' are matched.
+
+2022-10-14 01:41:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:41:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - All Products/div_All ProductsAddedYour product has been _e90caf' is present
+
+2022-10-14 01:41:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - All Products/h2_Category' are matched.
+
+2022-10-14 01:41:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:41:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - All Products/div_WomenDress Tops Saree MenTshirts Jeans _e0e1cf' is present
+
+2022-10-14 01:41:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - All Products/h2_Brands' are matched.
+
+2022-10-14 01:41:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:41:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - All Products/div_(6)Polo (5)HM (5)Madame (3)Mast  Harbou_8d694a' is present
+
+2022-10-14 01:41:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686473966.png]]
+
+2022-10-14 01:41:14 - [MESSAGE][PASSED] - Click on 'products' button
+
+2022-10-14 01:41:14 - [TEST_STEP][PASSED] - Users Click 'View Product' for any product: Users Click 'View Product' for any product
+
+2022-10-14 01:41:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - All Products/a_View Product' is clicked on
+
+2022-10-14 01:41:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Product Details/img' is visible
+
+2022-10-14 01:41:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Product Details/div_Men TshirtCategory Men  TshirtsRs. 400Q_196b2c' is visible
+
+2022-10-14 01:41:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Product Details/h2_Men Tshirt' are matched.
+
+2022-10-14 01:41:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Product Details/span_Rs. 400' are matched.
+
+2022-10-14 01:41:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686480630.png]]
+
+2022-10-14 01:41:20 - [MESSAGE][PASSED] - Users Click 'View Product' for any product
+
+2022-10-14 01:41:20 - [TEST_STEP][PASSED] - Users add Increase quantity to 6: Users add Increase quantity to 6
+
+2022-10-14 01:41:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Product Details/label_Quantity' are matched.
+
+2022-10-14 01:41:21 - [MESSAGE][PASSED] - Text '6' is set on object 'Object Repository/Page_Automation Exercise - Product Details/input_Quantity_quantity'
+
+2022-10-14 01:41:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686482160.png]]
+
+2022-10-14 01:41:23 - [MESSAGE][PASSED] - Users add Increase quantity to 6
+
+2022-10-14 01:41:23 - [TEST_STEP][PASSED] - Click 'Add to cart' button: Click 'Add to cart' button
+
+2022-10-14 01:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Product Details/button_Add to cart' is clicked on
+
+2022-10-14 01:41:23 - [MESSAGE][PASSED] - Click 'Add to cart' button
+
+2022-10-14 01:41:23 - [TEST_STEP][PASSED] - Click 'Continue Shopping' button: Click 'Continue Shopping' button
+
+2022-10-14 01:41:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:41:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - All Products/div_AddedYour product has been added to car_d7d02f' is present
+
+2022-10-14 01:41:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - All Products/h4_Added' are matched.
+
+2022-10-14 01:41:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686485692.png]]
+
+2022-10-14 01:41:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - All Products/button_Continue Shopping' is clicked on
+
+2022-10-14 01:41:27 - [MESSAGE][PASSED] - Click 'Continue Shopping' button
+
+2022-10-14 01:41:27 - [TEST_STEP][PASSED] - Click on 'Cart' button: Click on 'Cart' button
+
+2022-10-14 01:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - All Products/a_Cart' is clicked on
+
+2022-10-14 01:41:32 - [MESSAGE][INFO] - HAR: D:\My Project Katalon\BDD Cucumber Project\Reports\20221014_013058\TestSuitesFeature\20221014_013058\requests\main\4.har
+
+2022-10-14 01:41:32 - [MESSAGE][PASSED] - Send request successfully
+
+2022-10-14 01:41:32 - [MESSAGE][PASSED] - All links are accessible
+
+2022-10-14 01:41:32 - [MESSAGE][PASSED] - Click on 'Cart' button
+
+2022-10-14 01:41:32 - [TEST_STEP][PASSED] - Product is displayed in cart page with exact quantity 6: Product is displayed in cart page with exact quantity 6
+
+2022-10-14 01:41:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Checkout/tr_Men TshirtMen  TshirtsRs. 4006Rs. 2400' is visible
+
+2022-10-14 01:41:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Checkout/a_Men Tshirt' are matched.
+
+2022-10-14 01:41:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Checkout/p_Rs. 400' are matched.
+
+2022-10-14 01:41:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Checkout/button_6' are matched.
+
+2022-10-14 01:41:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:41:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Checkout/p_Rs. 2400' is present
+
+2022-10-14 01:41:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Checkout/a_Men Tshirt_cart_quantity_delete' is visible
+
+2022-10-14 01:41:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686494650.png]]
+
+2022-10-14 01:41:35 - [MESSAGE][PASSED] - Browser is closed
+
+2022-10-14 01:41:35 - [MESSAGE][PASSED] - Product is displayed in cart page with exact quantity 6
+
+2022-10-14 01:41:35 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Test Remove Product From Cart: SCENARIO Test Remove Product From Cart
+
+2022-10-14 01:41:35 - [TEST_STEP][PASSED] - Users navigates to home page: Users navigates to home page
+
+2022-10-14 01:41:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-14 01:41:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-14 01:41:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-14 01:41:47 - [MESSAGE][PASSED] - Navigate to 'https://www.automationexercise.com/' successfully
+
+2022-10-14 01:41:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686507979.png]]
+
+2022-10-14 01:41:48 - [MESSAGE][PASSED] - Users navigates to home page
+
+2022-10-14 01:41:48 - [TEST_STEP][PASSED] - Click on 'products' button: Click on 'products' button
+
+2022-10-14 01:41:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise/a_Products' is clicked on
+
+2022-10-14 01:41:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - All Products/h2_All Products' are matched.
+
+2022-10-14 01:41:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:41:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - All Products/div_All ProductsAddedYour product has been _e90caf' is present
+
+2022-10-14 01:41:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - All Products/h2_Category' are matched.
+
+2022-10-14 01:41:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:41:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - All Products/div_WomenDress Tops Saree MenTshirts Jeans _e0e1cf' is present
+
+2022-10-14 01:41:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - All Products/h2_Brands' are matched.
+
+2022-10-14 01:41:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:41:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - All Products/div_(6)Polo (5)HM (5)Madame (3)Mast  Harbou_8d694a' is present
+
+2022-10-14 01:41:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686517667.png]]
+
+2022-10-14 01:41:57 - [MESSAGE][PASSED] - Click on 'products' button
+
+2022-10-14 01:41:57 - [TEST_STEP][PASSED] - Users click 'Add to cart' in product 'Blue Top': Users click 'Add to cart' in product 'Blue Top'
+
+2022-10-14 01:41:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - All Products/div_Rs. 500Blue TopAdd to cartRs. 500Blue T_abe546' is visible
+
+2022-10-14 01:41:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - All Products/p_Blue Top' are matched.
+
+2022-10-14 01:41:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686519172.png]]
+
+2022-10-14 01:42:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - All Products/a_Add to cart' is clicked on
+
+2022-10-14 01:42:00 - [MESSAGE][PASSED] - Users click 'Add to cart' in product 'Blue Top'
+
+2022-10-14 01:42:00 - [TEST_STEP][PASSED] - Click 'Continue Shopping' button: Click 'Continue Shopping' button
+
+2022-10-14 01:42:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:42:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - All Products/div_AddedYour product has been added to car_d7d02f' is present
+
+2022-10-14 01:42:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - All Products/h4_Added' are matched.
+
+2022-10-14 01:42:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686521950.png]]
+
+2022-10-14 01:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - All Products/button_Continue Shopping' is clicked on
+
+2022-10-14 01:42:02 - [MESSAGE][PASSED] - Click 'Continue Shopping' button
+
+2022-10-14 01:42:02 - [TEST_STEP][PASSED] - Click on 'Cart' button: Click on 'Cart' button
+
+2022-10-14 01:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - All Products/a_Cart' is clicked on
+
+2022-10-14 01:42:07 - [MESSAGE][INFO] - HAR: D:\My Project Katalon\BDD Cucumber Project\Reports\20221014_013058\TestSuitesFeature\20221014_013058\requests\main\5.har
+
+2022-10-14 01:42:07 - [MESSAGE][PASSED] - Send request successfully
+
+2022-10-14 01:42:07 - [MESSAGE][PASSED] - All links are accessible
+
+2022-10-14 01:42:07 - [MESSAGE][PASSED] - Click on 'Cart' button
+
+2022-10-14 01:42:07 - [TEST_STEP][PASSED] - Click 'X' button corresponding to particular product: Click 'X' button corresponding to particular product
+
+2022-10-14 01:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Exercise - Checkout/a_Blue Top_cart_quantity_delete' is clicked on
+
+2022-10-14 01:42:08 - [MESSAGE][PASSED] - Click 'X' button corresponding to particular product
+
+2022-10-14 01:42:08 - [TEST_STEP][PASSED] - Product is removed from the cart: Product is removed from the cart
+
+2022-10-14 01:42:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Automation Exercise - Checkout/p_Cart is empty Click here to buy products' are matched.
+
+2022-10-14 01:42:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-14 01:42:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Automation Exercise - Checkout/p_Cart is empty Click here to buy products' is present
+
+2022-10-14 01:42:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\My Project Katalon\\BDD Cucumber Project\\Reports\\20221014_013058\\TestSuitesFeature\\20221014_013058\\1665686530343.png]]
+
+2022-10-14 01:42:11 - [MESSAGE][PASSED] - Browser is closed
+
+2022-10-14 01:42:11 - [MESSAGE][PASSED] - Product is removed from the cart
+
+2022-10-14 01:42:12 - [MESSAGE][PASSED] - Feature file: 'Include/features/Add Product in Cart.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-14 01:31:21 - [TEST_SUITE][PASSED] - TestSuitesFeature: Test Cases/RunFeatureTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

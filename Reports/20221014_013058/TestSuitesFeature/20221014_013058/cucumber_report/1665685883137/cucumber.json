@@ -1,0 +1,307 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Users open login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 71549931100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Users navigates to home page",
+            "match": {
+              "location": "LoginSteps.Users_navigates_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10020290000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on \u0027Signup / Login\u0027 button",
+            "match": {
+              "location": "LoginSteps.Click_on_Signup_Login_Buutton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Test login with valid credentials",
+        "description": "",
+        "id": "login-feature;test-login-with-valid-credentials;valid-credentials;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2767888500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enters an valid email testing123@gmail.com and valid password fzqqY0qJjYTuJiVJRZh4ag\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing123@gmail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "fzqqY0qJjYTuJiVJRZh4ag\u003d\u003d",
+                  "offset": 62
+                }
+              ],
+              "location": "LoginSteps.Users_enters_valid_username_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5694644700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on \u0027login\u0027 button",
+            "match": {
+              "location": "LoginSteps.Click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3948536000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Users is navigated to home page with account",
+            "match": {
+              "location": "LoginSteps.Users_is_navigated_to_homepage_with_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31506691400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on \u0027Logout\u0027 button then users back to login page",
+            "match": {
+              "location": "LoginSteps.Click_on_Logout_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Valid"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Users open login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 20458886599,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Users navigates to home page",
+            "match": {
+              "location": "LoginSteps.Users_navigates_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5839988600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on \u0027Signup / Login\u0027 button",
+            "match": {
+              "location": "LoginSteps.Click_on_Signup_Login_Buutton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Test login with invalid email and valid password",
+        "description": "",
+        "id": "login-feature;test-login-with-invalid-email-and-valid-password;invalid-email-and-valid-password;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2312411600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enters an invalid email invalid@gmail.com and valid password fzqqY0qJjYTuJiVJRZh4ag\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalid@gmail.com",
+                  "offset": 24
+                },
+                {
+                  "val": "fzqqY0qJjYTuJiVJRZh4ag\u003d\u003d",
+                  "offset": 61
+                }
+              ],
+              "location": "LoginSteps.Users_enters_an_invalid_username(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3381992600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Click on \u0027login\u0027 button",
+            "match": {
+              "location": "LoginSteps.Click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2705883399,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Users should NOT be able to login successfully",
+            "match": {
+              "location": "LoginSteps.Users_login_unsuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Invalid"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Users open login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16965530700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Users navigates to home page",
+            "match": {
+              "location": "LoginSteps.Users_navigates_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4254812400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on \u0027Signup / Login\u0027 button",
+            "match": {
+              "location": "LoginSteps.Click_on_Signup_Login_Buutton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Test login with valid email and invalid password",
+        "description": "",
+        "id": "login-feature;test-login-with-valid-email-and-invalid-password;valid-email-and-invalid-password;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2343841200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Enters an valid email testing123@gmail.com and invalid password JLfwvezS/NRqKh2zfFaESQ\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing123@gmail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "JLfwvezS/NRqKh2zfFaESQ\u003d\u003d",
+                  "offset": 64
+                }
+              ],
+              "location": "LoginSteps.Users_enters_an_invalid_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3495422500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click on \u0027login\u0027 button",
+            "match": {
+              "location": "LoginSteps.Click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4627901700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Users should NOT be able to login successfully",
+            "match": {
+              "location": "LoginSteps.Users_login_unsuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Invalid"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "  As an Users\n  Users want to login in the application \n  and navigate to home page with the account",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "D:/My Project Katalon/BDD Cucumber Project/Include/features/Login.feature",
+    "tags": []
+  }
+]
