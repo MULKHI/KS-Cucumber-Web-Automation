@@ -1,6 +1,8 @@
 # KS-Cucumber-Web-Automation
 Katalon Studio Automation test using BDD Cucumber
-Gherkin format in the folder
+
+Feature File in the folder /Include/features
+Step Definitions in the folder 
 
 
 ## Why using BDD Cucumber
