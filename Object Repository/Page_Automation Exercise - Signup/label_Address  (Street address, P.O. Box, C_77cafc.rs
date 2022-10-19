@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Address  (Street address, P.O. Box, C_77cafc</name>
+   <tag></tag>
+   <elementGuidId>78d984ca-ebe6-4453-a685-d98fbd024072</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='form']/div/div/div/div/form/p[4]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>63fd45f4-4640-4915-a159-b9ca66d95cab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>address1</value>
+      <webElementGuid>3df1f5cf-10a5-4faa-824f-471c1f228c07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Address * (Street address, P.O. Box, Company name, etc.)</value>
+      <webElementGuid>3b1a46da-39d9-429d-aae5-ee1376b66cb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 col-sm-offset-1&quot;]/div[@class=&quot;login-form&quot;]/form[1]/p[@class=&quot;required form-group&quot;]/label[1]</value>
+      <webElementGuid>5c6af222-8a65-45e5-bec3-659c0441d60b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='form']/div/div/div/div/form/p[4]/label</value>
+      <webElementGuid>a4228dac-d657-4988-a235-3cd3fb87cecd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company'])[1]/following::label[1]</value>
+      <webElementGuid>c250ae63-993d-4639-9e85-a3589641c669</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::label[2]</value>
+      <webElementGuid>e1094758-e3a6-4d18-9fd3-2e05d52a3147</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Address']/parent::*</value>
+      <webElementGuid>4a38d284-badb-4172-a22f-8ff8d6cb4ff9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[4]/label</value>
+      <webElementGuid>dfd499a7-7225-4b60-bae1-6cc1253bf82e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Address * (Street address, P.O. Box, Company name, etc.)' or . = 'Address * (Street address, P.O. Box, Company name, etc.)')]</value>
+      <webElementGuid>69ca39a8-ad68-4612-b918-ee33fafd1266</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

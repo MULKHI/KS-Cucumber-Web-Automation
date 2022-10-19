@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_APIs list for practice_girl img-responsive</name>
+   <tag></tag>
+   <elementGuidId>a7a9095a-b1d6-4af2-9dd4-4e6d9b883a2c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='slider-carousel']/div/div/div[2]/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.girl.img-responsive</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>9260a8f9-4f35-4188-9899-38c0c930306d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/static/images/home/girl2.jpg</value>
+      <webElementGuid>c55b379b-740f-407b-a05e-1375f4cebefb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>girl img-responsive</value>
+      <webElementGuid>a2437599-8559-4f03-88e1-d60a7144ed51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>demo website for practice</value>
+      <webElementGuid>d5511ec9-e37f-481c-ad62-f47aa7da5195</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;slider-carousel&quot;)/div[@class=&quot;carousel-inner&quot;]/div[@class=&quot;item active&quot;]/div[@class=&quot;col-sm-6&quot;]/img[@class=&quot;girl img-responsive&quot;]</value>
+      <webElementGuid>dcb25abb-a341-4665-8199-655477496d96</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='slider-carousel']/div/div/div[2]/img</value>
+      <webElementGuid>43b1cb70-d6bb-4265-ad56-d53c04e8912a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='demo website for practice']</value>
+      <webElementGuid>6059440d-9970-4e7f-9f87-15f2233783de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/img</value>
+      <webElementGuid>7ea5b01a-f603-44e2-a95b-93d18ac1ea21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/static/images/home/girl2.jpg' and @alt = 'demo website for practice']</value>
+      <webElementGuid>f47d6826-ca6a-4183-aaf8-16e94fbf2767</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

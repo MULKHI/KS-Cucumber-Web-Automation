@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_IndiaUnited StatesCanadaAustraliaIsr_09757b</name>
+   <tag></tag>
+   <elementGuidId>2f732237-d71e-47b1-8450-864142763d76</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='country']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#country</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>31061bdf-caab-43d2-b4f0-c08f9df13d2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-qa</name>
+      <type>Main</type>
+      <value>country</value>
+      <webElementGuid>6079bfb4-6618-4b3d-b43e-61188718dc79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>country</value>
+      <webElementGuid>29dd304a-065b-4366-aeb7-2b3c70840035</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>country</value>
+      <webElementGuid>de1a7437-02ba-4328-9f7e-c7d747e16ee5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>6161f533-e5a9-4b28-b7fd-20b4c26cfb33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+								India
+								United States
+								Canada
+								Australia
+								Israel
+								New Zealand
+								Singapore
+							</value>
+      <webElementGuid>a72ca52d-5a42-44ab-be5c-e52d1945fccb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;country&quot;)</value>
+      <webElementGuid>4af3f4ef-5c64-4ac5-9454-1e176b9b375a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='country']</value>
+      <webElementGuid>88e3baa0-d70a-4f21-ae56-9fb70f354f5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='form']/div/div/div/div/form/p[6]/select</value>
+      <webElementGuid>4afaf060-998d-4e68-8a70-dd320f005911</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::select[1]</value>
+      <webElementGuid>0a027472-ea8d-41f9-83b7-93057f4323c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[8]/preceding::select[1]</value>
+      <webElementGuid>fdf37bd0-51ba-41c5-960d-a32bf8a232ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[6]/select</value>
+      <webElementGuid>c8f937b1-22f6-44d4-9b09-0c56826020a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'country' and @name = 'country' and (text() = '
+								India
+								United States
+								Canada
+								Australia
+								Israel
+								New Zealand
+								Singapore
+							' or . = '
+								India
+								United States
+								Canada
+								Australia
+								Israel
+								New Zealand
+								Singapore
+							')]</value>
+      <webElementGuid>699c98ae-3d05-4ed6-8fc9-742e4554f60a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

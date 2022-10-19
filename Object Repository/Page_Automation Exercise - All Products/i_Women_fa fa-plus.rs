@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Women_fa fa-plus</name>
+   <tag></tag>
+   <elementGuidId>bbae8b2a-1222-4598-be9f-e88219ce29a8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='accordian']/div/div/h4/a/span/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-plus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>f305e2bd-f222-40e5-8b41-0c4f0f0c7ef8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-plus</value>
+      <webElementGuid>cd7be497-c4b1-4e02-a02e-9669f2ad1d41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accordian&quot;)/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-heading&quot;]/h4[@class=&quot;panel-title&quot;]/a[1]/span[@class=&quot;badge pull-right&quot;]/i[@class=&quot;fa fa-plus&quot;]</value>
+      <webElementGuid>74c33b4a-7076-412a-a1f6-cd9661d9d99d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='accordian']/div/div/h4/a/span/i</value>
+      <webElementGuid>33a95f9e-9079-4601-9643-e02e359ef394</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/i</value>
+      <webElementGuid>11377a48-6e28-4b04-aa70-5810b2d166dc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

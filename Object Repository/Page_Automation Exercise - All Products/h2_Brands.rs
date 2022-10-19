@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Brands</name>
+   <tag></tag>
+   <elementGuidId>e4754f41-d511-414d-87aa-c5ae68e5cc09</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Tops &amp; Shirts'])[1]/following::h2[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.brands_products > h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>4325ca54-db86-45ad-9443-d86936d5d3b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Brands</value>
+      <webElementGuid>9ab11334-ed3a-401d-97b7-bff55be53f5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[2]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-3&quot;]/div[@class=&quot;left-sidebar&quot;]/div[@class=&quot;brands_products&quot;]/h2[1]</value>
+      <webElementGuid>06bd1faa-bbdb-4792-a1d9-a94566a30ea1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tops &amp; Shirts'])[1]/following::h2[1]</value>
+      <webElementGuid>065a45e9-a075-46f2-9088-8dbc746a018b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dress'])[2]/following::h2[1]</value>
+      <webElementGuid>599495e1-085c-44b3-97f1-2c85196de924</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(6)'])[1]/preceding::h2[1]</value>
+      <webElementGuid>b519ac33-14ae-408b-ae07-2d5b301f35d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Brands']/parent::*</value>
+      <webElementGuid>d0c920fc-02b3-43ec-89d0-e6f712f85a9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/h2</value>
+      <webElementGuid>ba992359-ff14-4554-993d-0f78a39f3a11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Brands' or . = 'Brands')]</value>
+      <webElementGuid>6b313e4c-bc0a-497c-ae36-c27972676805</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
