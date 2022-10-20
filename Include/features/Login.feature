@@ -24,7 +24,7 @@ Feature: Login Feature
     And Click on 'login' button
     Then Users should NOT be able to login successfully
 
-    Examples: invalid email and valid password
+    Examples: wrong credentials
       | email                | password                 |
       | testing123@gmail.com | 7RhQGkXe/2i++keEqyAarA== |
       | invalid@gmail.com    | fzqqY0qJjYTuJiVJRZh4ag== |
