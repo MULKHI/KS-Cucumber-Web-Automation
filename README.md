@@ -16,4 +16,6 @@ Test Report will appear in the 'Reports' folder in the form of HTML
 
 If you are still confused and have problems, you can contact me via the link below 👇
 
-- [x] https://linktr.ee/putraqa
+<p>
+    <a href="mailto: mulkhiputral@gmail.com" target="blank"><img src="https://img.shields.io/badge/-gmail-181717?style=for-the-badge&logo=gmail" /></a>
+</p>
