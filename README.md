@@ -9,6 +9,17 @@ Katalon Studio Automation test using BDD Cucumber
 ## Why using BDD Cucumber
 Cucumber use Feature Files to write User Stories, because Cucumber uses a language that is easy to understand by anyone (Gherkin), each team can add or edit User Stories
 
+6. Buat Feature file "SearchGoogle.feature" pada directory Features
+```gherkin
+Feature: Search Google
+  Scenario: I want to using feature search on google
+    Given I Open browser
+    And Open website Google
+    And Located on google website
+    When I search "Wisnu Munawar"
+    Then Showing result related with "Wisnu Munawar"
+```
+
 ### 📄Test Reports
 Test Report will appear in the 'Reports' folder in the form of HTML
 
