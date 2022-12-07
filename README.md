@@ -9,7 +9,7 @@ Katalon Studio Automation test using BDD Cucumber
 ## Why using BDD Cucumber
 Cucumber use Feature Files to write User Stories, because Cucumber uses a language that is easy to understand by anyone (Gherkin), each team can add or edit User Stories
 
-### Feature file "Login.feature" in folder Features
+#### Feature file "Login.feature" in folder Features
 ```gherkin
 Feature: Login Feature
   As an Users
