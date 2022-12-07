@@ -7,7 +7,7 @@ Feature: Login Feature
     Given Users navigates to home page
     And Click on 'Signup / Login' button
 
-  @Valid
+  @TC_LOGIN.001 @Positive
   Scenario Outline: Test login Successful
     When Enters an email <email> and password <password>
     And Click on 'login' button
@@ -18,13 +18,13 @@ Feature: Login Feature
       | email                | password                 |
       | testing123@gmail.com | fzqqY0qJjYTuJiVJRZh4ag== |
 
-  @Invalid
+  @TC_LOGIN.001 @Negative
   Scenario Outline: Test Failed login using wrong credentials
     When Enters an email <email> and password <password>
     And Click on 'login' button
     Then Users should NOT be able to login successfully
 
-    Examples: wrong credentials
+    Examples: invalid email and valid password
       | email                | password                 |
       | testing123@gmail.com | 7RhQGkXe/2i++keEqyAarA== |
       | invalid@gmail.com    | fzqqY0qJjYTuJiVJRZh4ag== |
