@@ -7,7 +7,7 @@ Feature: Search Product Feature
     Given Users navigates to home page
     And Click on 'products' button
 
-  @Valid
+   @TC_SEARCH.001 @Positive
   Scenario Outline: Test searching product existing
     When Users enters <ProductName> into the search bar
     And Click on 'search' button
