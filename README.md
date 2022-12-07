@@ -9,15 +9,38 @@ Katalon Studio Automation test using BDD Cucumber
 ## Why using BDD Cucumber
 Cucumber use Feature Files to write User Stories, because Cucumber uses a language that is easy to understand by anyone (Gherkin), each team can add or edit User Stories
 
-6. Buat Feature file "SearchGoogle.feature" pada directory Features
+## Feature file "Login.feature" in folder Features
 ```gherkin
-Feature: Search Google
-  Scenario: I want to using feature search on google
-    Given I Open browser
-    And Open website Google
-    And Located on google website
-    When I search "Wisnu Munawar"
-    Then Showing result related with "Wisnu Munawar"
+Feature: Login Feature
+  As an Users
+  Users want to login in the application 
+  and navigate to home page with the account
+
+  Background: Users open login page
+    Given Users navigates to home page
+    And Click on 'Signup / Login' button
+
+  @TC_LOGIN.001 @Positive
+  Scenario Outline: Test login Successful
+    When Enters an email <email> and password <password>
+    And Click on 'login' button
+    Then Users is navigated to home page with account
+    And Click on 'Logout' button then users back to login page
+
+    Examples: valid credentials
+      | email                | password                 |
+      | testing123@gmail.com | fzqqY0qJjYTuJiVJRZh4ag== |
+
+  @TC_LOGIN.001 @Negative
+  Scenario Outline: Test Failed login using wrong credentials
+    When Enters an email <email> and password <password>
+    And Click on 'login' button
+    Then Users should NOT be able to login successfully
+
+    Examples: invalid email and valid password
+      | email                | password                 |
+      | testing123@gmail.com | 7RhQGkXe/2i++keEqyAarA== |
+      | invalid@gmail.com    | fzqqY0qJjYTuJiVJRZh4ag== |
 ```
 
 ### 📄Test Reports
