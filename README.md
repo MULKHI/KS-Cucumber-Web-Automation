@@ -138,7 +138,7 @@ Feature: Register Feature
 
 ```
 
-#### Feature file "Search.feature" in folder Features
+#### Feature file "Search Product.feature" in folder Features
 ```gherkin
 Feature: Search Product Feature
   As an Users
@@ -158,6 +158,48 @@ Feature: Search Product Feature
     Examples: existing Product
       | ProductName |
       | Winter Top  |
+
+```
+
+#### Feature file "Add Product in Cart.feature" in folder Features
+```gherkin
+Feature: Add Product Feature
+  As an Users
+  Users want to add product in the application
+  and get the add result of product existing in cart page
+
+  Background: Users open product page
+    Given Users navigates to home page
+    And Click on 'products' button
+
+  @TC_ADD_PRODUCT.001 @Positive
+  Scenario: Test Add Product in Cart
+    When Users click 'Add to cart' in product 'Blue Top'
+    And Click 'Continue Shopping' button
+    And Click on 'Cart' button
+    Then Users will get the result products are added to Cart
+
+  @TC_ADD_PRODUCT.002 @Positive
+  Scenario Outline: Test Verify Product Quantity in Cart
+    When Users Click 'View Product' for any product
+    And Users add Increase quantity to <amount>
+    And Click 'Add to cart' button
+    And Click 'Continue Shopping' button
+    And Click on 'Cart' button
+    Then Product is displayed in cart page with exact quantity <amount>
+
+    Examples: 
+      | amount |
+      |      5 |
+
+  @TC_ADD_PRODUCT.003 @Positive
+  Scenario: Test Remove Product From Cart
+    When Users click 'Add to cart' in product 'Blue Top'
+    And Click 'Continue Shopping' button
+    And Click on 'Cart' button
+    And Click 'X' button corresponding to particular product
+    Then Product is removed from the cart
+
 
 ```
 
