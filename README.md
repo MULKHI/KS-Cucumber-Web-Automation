@@ -106,7 +106,7 @@ Feature: Register Feature
 
     Examples: ACCOUNT INFORMATION AND ADDRESS INFORMATION
       | Name  | Email               | Password                         | FirstName | LastName | Address | State    | City  | Zipcode | MobileNumber |
-      | test2 | tejouyuis@gmail.com | o4HjxlJLVB5Fa64+Hon+OOTdR5Uf8246 | testkedua | deep     | sadadd  | sdadadad | Paris |   04432 |   0868746777 |
+      | test2 | your@gmail.com | o4HjxlJLVB5Fa64+Hon+OOTdR5Uf8246 | kanzaki | shinpei     | myaddress  | mystate | tokyo |   04432 |   0868746997 |
 
   @TC_REGISTER.003 @Negative
   Scenario Outline: Test Register an existing Name/Email
@@ -134,7 +134,7 @@ Feature: Register Feature
 
     Examples: ACCOUNT INFORMATION AND ADDRESS INFORMATION
       | Name  | Email                | Company      | Address2 |
-      | test4 | teslkjhjdr@gmail.com | Name Company | sasdada  |
+      | mariana | myemail@gmail.com | Name Company | myaddress2  |
 
 ```
 
