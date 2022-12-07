@@ -81,8 +81,8 @@ Feature: Register Feature
     And Click on 'Logout' button then users back to login page
 
     Examples: ACCOUNT INFORMATION AND ADDRESS INFORMATION
-      | Name  | Email            | Password                 | FirstName | LastName | Company      | Address | Address2 | State    | City  | Zipcode | MobileNumber |
-      | test1 | myemail@gmail.com | JLfwvezS/NRqKh2zfFaESQ== | michel     | john | Name Company | myaddess  | myaddress2  | mystate | Paris |   04432 |   0868746777 |
+      | Name  | Email             | Password                 | FirstName  | LastName | Company      | Address   | Address2    | State   | City  | Zipcode | MobileNumber |
+      | test1 | myemail@gmail.com | JLfwvezS/NRqKh2zfFaESQ== | michel     | john     | Name Company | myaddess  | myaddress2  | mystate | Paris |   04432 |   0868746777   |
 
   @TC_REGISTER.002 @Positive
   Scenario Outline: Test Register only input in mandatory fields
