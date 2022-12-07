@@ -15,7 +15,7 @@ Feature: Checkout Feature
     And Click on 'Cart' button
     Then Users will get the result products are added to Cart
 
-  @Valid
+  @TC_CHECKOUT.001 @Positive
   Scenario Outline: Test Login before checkout
     When Users click 'Proceed To Checkout' button
     And Check Address Details
