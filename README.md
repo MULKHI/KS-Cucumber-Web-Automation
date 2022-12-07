@@ -105,8 +105,8 @@ Feature: Register Feature
     And Click on 'Logout' button then users back to login page
 
     Examples: ACCOUNT INFORMATION AND ADDRESS INFORMATION
-      | Name  | Email               | Password                         | FirstName | LastName | Address | State    | City  | Zipcode | MobileNumber |
-      | test2 | your@gmail.com | o4HjxlJLVB5Fa64+Hon+OOTdR5Uf8246 | kanzaki | shinpei     | myaddress  | mystate | tokyo |   04432 |   0868746997 |
+      | Name  | Email          | Password                         | FirstName | LastName | Address    | State   | City  | Zipcode | MobileNumber |
+      | test2 | your@gmail.com | o4HjxlJLVB5Fa64+Hon+OOTdR5Uf8246 | kanzaki   | shinpei  | myaddress  | mystate | tokyo |   04432 |   0868746997 |
 
   @TC_REGISTER.003 @Negative
   Scenario Outline: Test Register an existing Name/Email
@@ -133,7 +133,7 @@ Feature: Register Feature
     Then Users cannot register and will navigated to fields Name
 
     Examples: ACCOUNT INFORMATION AND ADDRESS INFORMATION
-      | Name  | Email                | Company      | Address2 |
+      | Name    | Email             | Company      | Address2    |
       | mariana | myemail@gmail.com | Name Company | myaddress2  |
 
 ```
