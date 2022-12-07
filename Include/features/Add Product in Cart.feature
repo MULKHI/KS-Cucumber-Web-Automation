@@ -7,14 +7,14 @@ Feature: Add Product Feature
     Given Users navigates to home page
     And Click on 'products' button
 
-  @Valid
+  @TC_ADD_PRODUCT.001 @Positive
   Scenario: Test Add Product in Cart
     When Users click 'Add to cart' in product 'Blue Top'
     And Click 'Continue Shopping' button
     And Click on 'Cart' button
     Then Users will get the result products are added to Cart
 
-  @Valid
+  @TC_ADD_PRODUCT.002 @Positive
   Scenario Outline: Test Verify Product Quantity in Cart
     When Users Click 'View Product' for any product
     And Users add Increase quantity to <amount>
@@ -27,7 +27,7 @@ Feature: Add Product Feature
       | amount |
       |      5 |
 
-  @Valid
+  @TC_ADD_PRODUCT.003 @Positive
   Scenario: Test Remove Product From Cart
     When Users click 'Add to cart' in product 'Blue Top'
     And Click 'Continue Shopping' button
